@@ -1,6 +1,6 @@
 # Bienenida
 
-The **free** book "**Programming Basics with C#**" introduces the readers to writing **programming code** at beginner level (variables and data, conditional statements, loops and methods) using the **C#** language. It combines **tutorial**-style learning content with **video** lessons, **code examples** and a lot of practical **coding exercises** with automated online evaluation (judge) system to ensure efficient learning.
+El libro **gratuito** "Fundamentos de programación con C #" introduce a los lectores a escribir **código de programación** a nivel principiante (variables y datos, declaraciones condicionales, bucles y métodos) utilizando el lenguaje **C #**. Combina contenido de aprendizaje de estilo **tutorial** con lecciones en **ejemplos de código** y muchos ejercicios prácticos de **codificación**.
 
 * [Preface](Content/Preface/overview.md)
 * [1. First Steps in Programming](Content/Chapter-1-first-steps-in-programming/overview.md)
@@ -24,48 +24,3 @@ The **free** book "**Programming Basics with C#**" introduces the readers to wri
 * [11. Tricks and Hacks](Content/Chapter-11-tricks-and-hacks/overview.md)
 * [Conclusion](Content/Conclusion/overview.md)
 
-## Download the Book
-
-**Download** the book "Programming Basics with C#" in **PDF** format (desktop readers, recommended):
-
-* [Programming-Basics-CSharp-Book-and-Video-Lessons-Nakov-v2019.pdf](https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/resources/Programming-Basics-CSharp-Book-and-Video-Lessons-Nakov-v2019.pdf)
-
-**Download** the book "Programming Basics with C#" in **ePub** format (standard e-book readers):
-
-* [Programming-Basics-CSharp-Book-and-Video-Lessons-Nakov-v2019.epub](https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/resources/Programming-Basics-CSharp-Book-and-Video-Lessons-Nakov-v2019.epub?raw=true)
-
-**Download** the book "Programming Basics with C#" in **mobi** format (Kindle e-book readers):
-
-* [Programming-Basics-CSharp-Book-and-Video-Lessons-Nakov-v2019.mobi](https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN/blob/master/resources/Programming-Basics-CSharp-Book-and-Video-Lessons-Nakov-v2019.mobi?raw=true)
-
-**Order the book** as **paperback copy** from Amazon:
-
-* [Amazon.com (United States): Programming Basics with C#: Comprehensive Introduction to Programming with C#: Book + Video Lessons](https://www.amazon.com/dp/6190009026)
-* [Amazon.co.uk (Europe): Programming Basics with C#: Comprehensive Introduction to Programming with C#: Book + Video Lessons](https://www.amazon.co.uk/dp/6190009026)
-
-## Book Details
-
-Brief information about this edition:
-
-* Title: **Programming Basics with C#**
-* Authors: **Svetlin Nakov & Team**
-  * Main authors: Aleksander Krastev, Aleksander Lazarov, Angel Dimitriev, Vasko Viktorov, Ventsislav Petrov, Daniel Tsvetkov, Dimitar Tatarski, Dimo Dimov, Diyan Tonchev, Elena Rogleva, Zhivko Nedyalkov, Julieta Atanasova, Zahariya Pehlivanova, Ivelin Kirilov, Iskra Nikolova, Kalin Primov, Kristiyan Pamidov, Luboslav Lubenov, Nikolay Bankin, Nikolay Dimov, Pavlin Petkov, Petar Ivanov, Preslav Mihaylov, Rositsa Nenova, Ruslan Filipov, Svetlin Nakov, Stefka Vasileva, Teodor Kurtev, Tonyo Zhelev, Hristiyan Hristov, Hristo Hristov, Tsvetan Iliev, Yulian Linev, Yanitsa Vuleva
-  * Other contributors: Bilyana Borislavova, Kalina Milanova, Karina Cholakova, Marieta Petrova, Marina Shideroff, Mirela Damyanova, Nelly Karaivanova, Petko Dyankov
-* ISBN: **978-619-00-0902-3** (9786190009023)
-* Edition: **Faber Publishing, Sofia, 2019**
-* License: **CC-BY-SA**
-* Source code: https://github.com/SoftUni/Programming-Basics-Book-CSharp-EN
-
-## Book Editions
-
-This book is available in several versions in different programming languages:
-
-* [Programming Basics with C# (English)](https://csharp-book.softuni.org)
-* [Programming Basics with Java (English)](https://java-book.softuni.org)
-* [Programming Basics with JavaScript (English)](https://js-book.softuni.org)
-* [Programming Basics with Python (English)](https://python-book.softuni.org)
-* [Programming Basics with C# (Bulgarian)](https://csharp-book.softuni.bg)
-* [Programming Basics with Java (Bulgarian)](https://java-book.softuni.bg)
-* [Programming Basics with JavaScript (Bulgarian)](https://js-book.softuni.bg)
-* [Programming Basics with Python (Bulgarian)](https://python-book.softuni.bg)
-* [Programming Basics with C++ (Bulgarian)](https://cpp-book.softuni.bg)
