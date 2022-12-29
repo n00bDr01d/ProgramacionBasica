@@ -1,21 +1,17 @@
-# Exercises: First Steps in Coding
+# Ejercicios: Primeros pasos en la codificación
 
-Welcome to the **exercises**. Now we are going to write a couple of console applications, by which we are going to make a few more steps into programming. After that we will show how we can program something more complex – programs with graphical user interface.
+Bienvenidos a los **ejercicios**. Ahora vamos a escribir un par de aplicaciones de consola, mediante las cuales vamos a dar algunos pasos más en la programación. Después de eso, mostraremos cómo podemos programar algo más complejo: programas con interfaz gráfica de usuario.
 
-## Video: Chapter Summary
+### ¿Qué aprendimos en este capítulo? <a href="#what-we-learned-in-this-chapter" id="what-we-learned-in-this-chapter"></a>
 
-Watch the following video to summarize what we learned in this chapter: https://youtu.be/GstN43-eN2g.
+Primero, hemos aprendido **lo que es la programación: dar comandos, escritos en un lenguaje informático,** que la máquina entiende y es capaz de ejecutar. Entendimos lo que es **un programa de computadora**: representa una **secuencia de comandos**, dispuestos uno tras otro. Nos familiarizamos con **el lenguaje para programar C #** en un nivel base y cómo **crear aplicaciones de consola simples** con Visual Studio. Seguimos la **estructura del código de programación en el lenguaje C #**, como por ejemplo, el hecho de que los comandos se dan principalmente en la sección entre **los paréntesis de apertura y cierre**. Vimos cómo imprimir con y cómo iniciar nuestro programa con \[**Ctrl + F5**]. Aprendimos como usar`static void Main(string[] args) Console.WriteLine(…)`
 
-## What We Learned in This Chapter?
+### Los ejercicios <a href="#the-exercises" id="the-exercises"></a>
 
-First, we have learned **what is programming** – **giving commands, written in a computer language**, which the machine understands and is able to execute. We understood what **a computer program** is – it represents a **sequence of commands**, arranged one after another. We got familiar with **the language for programming C#** on a base level and how **to create simple console applications** with Visual Studio. We followed **the structure of the programming code in the C# language**, as for example, the fact that commands are mainly given in the section `static void Main(string[] args)` between **the opening and closing curly parentheses**. We saw how to print with `Console.WriteLine(…)` and how to start our program with \[**Ctrl + F5**]. We learned how to test our code in **SoftUni Judge**.
+Comencemos con los **ejercicios**. No olvides que la programación se aprende escribiendo mucho código y resolviendo problemas, ¿verdad? Vamos a resolver algunos problemas para confirmar lo que hemos aprendido.
 
-## The Exercises
-
-Let's get started with the **exercises**. You didn't forget that programming is learned by writing a lot of code and solving problems, did you? Let's solve a few problems to confirm what we have learned.
-
-* [Problem: Console Application “Expression”](expression.md)
-* [Problem: Numbers from 1 to 20](numbers-1-to-20.md)
-* [Problem: A Triangle Made Out of 55 Stars](triangle-of-stars.md)
-* [Problem: Calculate Rectangle Area](rectangle-area.md)
-* [Problem: A Square Made Out of Stars](square-of-stars.md)
+* Problema: "Expresión" de la aplicación de consola
+* Problema: Números del 1 al 20
+* Problema: Un triángulo hecho de 55 estrellas
+* Problema: Calcular el área del rectángulo
+* Problema: Un cuadrado hecho de estrellas

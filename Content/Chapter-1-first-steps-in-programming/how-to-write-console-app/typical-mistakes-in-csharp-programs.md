@@ -1,14 +1,10 @@
-# Typical Mistakes in C# Programs
+# Errores típicos en programas de C\#
 
-Now we will review the **typical mistakes in the C# programs** of the beginners, like missing semicolon, missing quotations mark, missing parenthesis, wrong letter capitalization, etc.
+Ahora revisaremos los **errores típicos en los programas de C # de los** principiantes, como falta punto y coma, falta de comillas, falta de paréntesis, mayúsculas incorrectas, etc.
 
-## Video: Typical Mistakes in C# Programs
+### Escribir fuera del método principal <a href="#writing-outside-if-the-main-method" id="writing-outside-if-the-main-method"></a>
 
-Watch a video lesson about the typical mistakes in the C# programs of the beginners: [https://youtu.be/8XwM2AVC0wU](https://youtu.be/8XwM2AVC0wU).
-
-## Writing Outside if the Main Method
-
-One of the common mistakes with beginners is **writing outside the body of the `Main()` method**, because the integrated environment or the compiler can't read the given commands in the program correctly. Here is an example for an incorrectly written program:
+Uno de los errores comunes con los principiantes es **escribir fuera del cuerpo del método**, porque el entorno integrado o el compilador no pueden leer correctamente los comandos dados en el programa. Aquí hay un ejemplo de un programa escrito incorrectamente:`Main()`
 
 ```csharp
 static void Main(string[] args)
@@ -17,9 +13,9 @@ static void Main(string[] args)
 Console.WriteLine("Hello C#");
 ```
 
-## Wrong Letter Capitalization
+### Letras mayúsculas incorrectas <a href="#wrong-letter-capitalization" id="wrong-letter-capitalization"></a>
 
-Another mistake is switching **capital and small letters**, and these matter for calling the commands and their correct functioning. Here is an example of such a mistake:
+Otro error es cambiar **mayúsculas y minúsculas**, y estas son importantes para llamar a los comandos y su correcto funcionamiento. Aquí hay un ejemplo de tal error:
 
 ```csharp
 static void Main(string[] args)
@@ -28,11 +24,11 @@ static void Main(string[] args)
 }
 ```
 
-In the example above `Writeline` is written wrong and has to be fixed to `WriteLine`.
+En el ejemplo anterior está escrito mal y tiene que ser corregido a .`WritelineWriteLine`
 
-## Missing Semicolon
+### Falta punto y coma <a href="#missing-semicolon" id="missing-semicolon"></a>
 
-The absence of **a semicolon** (`;`) in the end of the commands is one of the eternal problems of the beginner programmer. Skipping this sign leads to **incorrect functioning of the program** and **often the problem stays unnoticed**. Here is an example of a mistaken code:
+La ausencia de **un punto y coma** () al final de los comandos es uno de los eternos problemas del programador principiante. Omitir este signo conduce a **un funcionamiento incorrecto del programa** y**, a menudo, el problema pasa desapercibido**. Aquí hay un ejemplo de un código erróneo:`;`
 
 ```csharp
 static void Main(string[] args)
@@ -41,9 +37,9 @@ static void Main(string[] args)
 }
 ```
 
-## Missing or Wrong Quotation Mark or Parenthesis
+### Falta o es incorrecto entre comillas o paréntesis <a href="#missing-or-wrong-quotation-mark-or-parenthesis" id="missing-or-wrong-quotation-mark-or-parenthesis"></a>
 
-Missing **quotation mark** or **the absence of opening or closing parentheses** can also turn out to be a problem. Same as the semicolon, here also the problem leads to **incorrect functioning of the program** or overall to its failure. This mistake is hardly noticeable in a larger code. Here is an example of a program with errors:
+La falta de **comillas** o **la ausencia de paréntesis de apertura o cierre** también pueden ser un problema. Al igual que el punto y coma, aquí también el problema conduce a **un funcionamiento incorrecto del programa** o, en general, a su falla. Este error apenas se nota en un código más grande. Aquí hay un ejemplo de un programa con errores:
 
 ```csharp
 static void Main(string[] args)
@@ -52,11 +48,11 @@ static void Main(string[] args)
 }
 ```
 
-This program will throw **a compile time error** and the build is going to fail, and even before that the code will become underlined, in order to point the programmer to the mistake that they'd made (the missing closing quotation mark):
+Este programa arrojará **un error en tiempo** de compilación y la compilación va a fallar, e incluso antes de eso, el código se subrayará, para señalar al programador el error que cometió (la comilla de cierre faltante):
 
-![](../../../assets/chapter-1-images/01.Hello-csharp-08.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/01.Hello-csharp-08.png)
 
-Another example is missing `{` or `}`. It may produce unexpected error messages, not always easy to understand.
+Falta otro ejemplo o . Puede producir mensajes de error inesperados, no siempre fáciles de entender.`{}`
 
 ```csharp
 class Example

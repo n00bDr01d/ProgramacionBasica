@@ -1,18 +1,20 @@
 # Problem: Numbers from 1 to 20
 
-Write a C# console program that **prints the numbers from 1 to 20** on separate lines on the console.
+Escriba un programa de consola de C# que **imprima los números del 1 al 20** en líneas separadas de la consola.
 
-## Video: Problem "Numbers from 1 to 20"
+### Video: Problema "Números del 1 al 20" <a href="#video-problem-numbers-from-1-to-20" id="video-problem-numbers-from-1-to-20"></a>
 
-Watch a video lesson to learn how to solve the "Numbers from 1 to 20" problem step by step: https://youtu.be/8Qne7CBM2SQ.
+### Consejos y directrices <a href="#hints-and-guidelines" id="hints-and-guidelines"></a>
 
-## Hints and Guidelines
+Cree **una aplicación de consola de C#** con el nombre :`Nums1To20`
 
-Create **a C# console application** with name “`Nums1To20`”:
+![](https://csharp-book.softuni.org/assets/chapter-1-images/03.Numbers-1-to-20-01.png)
 
-![](../../../assets/chapter-1-images/03.Numbers-1-to-20-01.png)
+Dentro del método escriba 20 comandos, cada uno en una línea separada, para imprimir los números del 1 al 20 uno tras otro. Algunos de ustedes se estarán preguntando si hay una manera más inteligente. Relájate, lo hay, pero lo mencionaremos más adelante.&#x20;
 
-Inside the `static void Main()` method write 20 commands `Console.WriteLine(…)`, each on a separate line, in order to print the numbers from 1 to 20 one after another. Some of you may be wondering if there is a smarter way. Relax, there is, but we will mention it later on.![](../../../assets/chapter-1-images/03.Numbers-1-to-20-02.png)Now **we start the program** and we check if the result is what it is supposed to be:
+<figure><img src="https://csharp-book.softuni.org/assets/chapter-1-images/03.Numbers-1-to-20-02.png" alt=""><figcaption></figcaption></figure>
+
+Ahora **iniciamos el programa y comprobamos** si el resultado es el que se supone que es:`static void Main()Console.WriteLine(…)`
 
 ```
 1
@@ -20,9 +22,3 @@ Inside the `static void Main()` method write 20 commands `Console.WriteLine(…)
 …
 20
 ```
-
-## Testing in the Judge System
-
-Test your solution here: [https://judge.softuni.org/Contests/Practice/Index/503#2](https://judge.softuni.org/Contests/Practice/Index/503#2).
-
-Now think whether we can write the program **a smarter way**, so we don't repeat the same command 20 times. Seek out information on the Internet about "[**for loop C#**](https://www.google.com/search?q=for+loop+C%23\&oq=for+loop+C%23)".
