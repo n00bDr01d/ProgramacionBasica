@@ -4,15 +4,15 @@ Create a method **`RepeatString(str, count)`**, which takes parameters of type *
 
 ## Sample Input and Output
 
-| Input           | Output | Input            | Output                   |
-| --------------- | ------ | ---------------- | ------------------------ |
-| <p>str<br>2</p> | strstr | <p>roki<br>6</p> | rokirokirokirokirokiroki |
+| Input | Output | Input | Output |
+| --- | --- | --- | --- |
+|str<br>2|strstr|roki<br>6|rokirokirokirokirokiroki|
 
 ## Hints and Guidelines
 
 In the method below, inside the loop, append the input string to the result, that you will finally return:
 
-![](../../../assets/chapter-10-images/21.Repeated-string-01.png)
+![](/assets/chapter-10-images/21.Repeated-string-01.png)
 
 Keep in mind that **in C# concatenating strings in loops leads to bad performance** and is not recommended. Learn more at: https://docs.microsoft.com/dotnet/api/system.text.stringbuilder#the-string-and-stringbuilder-types.
 

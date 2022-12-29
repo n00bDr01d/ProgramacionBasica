@@ -1,6 +1,6 @@
-# Tricks for C# Developers
+# Tricks for C\# Developers
 
-In this section we will recall some **tricks and techniques** in programming with C#, already seen in this book, which can be very useful if you attend an exam for beginner programming.
+In this section we will recall some **tricks and techniques** in programming with C\#, already seen in this book, which can be very useful if you attend an exam for beginner programming.
 
 ## Inserting Variable Values in Strings
 
@@ -12,7 +12,7 @@ Console.WriteLine("{0}", text);
 // This will print on the console "some text"
 ```
 
-In this case we are using a **placeholder** – `{x}`, where **x** is a number (larger than or equal to 0), corresponding to the position on which we have placed our variable. Therefore, if we insert two variables, we will have one placeholder, which will be `{0}` and it will keep the value of **the first variable** and another one – `{1}`, which will keep the value of **the second variable**. For example:
+In this case we are using a **placeholder** – `{x}`, where **x** is a number \(larger than or equal to 0\), corresponding to the position on which we have placed our variable. Therefore, if we insert two variables, we will have one placeholder, which will be `{0}` and it will keep the value of **the first variable** and another one – `{1}`, which will keep the value of **the second variable**. For example:
 
 ```csharp
 var text = "some text";
@@ -36,9 +36,8 @@ Console.WriteLine(Math.Round(number, 2));
 ## Rounding Numbers
 
 To round numbers, we may use the `Math.Round(…)` method, which takes 2 parameters:
-
-* the first one is **the number we want to round**
-* the second one is the number that determines **how many digits after the decimal point we want to round to** (this should always be an integer)
+  - the first one is **the number we want to round**
+  - the second one is the number that determines **how many digits after the decimal point we want to round to** (this should always be an integer)
 
 If we want to round the number to **2 digits after the decimal point** and the third digit is lower than 5, as in the example above, the rounding is down, but if the third digit is equal or bigger than 5 – the rounding is up as in the example below:
 
@@ -71,14 +70,14 @@ var num = 5.432424;
 Console.WriteLine("{0:f2}", num);
 ```
 
-In this case after the number we add `:f2`, which will limit the number to 2 digits after the decimal point and will work like `Math.Round(…)`. You should keep in mind that the number after the letter `f` means to how many digits after the decimal point the number is rounded (i.e. it can be `f3` or `f5`).
+In this case after the number we add `:f2`, which will limit the number to 2 digits after the decimal point and will work like `Math.Round(…)`. You should keep in mind that the number after the letter `f` means to how many digits after the decimal point the number is rounded \(i.e. it can be `f3` or `f5`\).
 
 ## How to Write a Conditional Statement?
 
-The conditional `if`\*\* construction\*\* contains the following elements:
+The conditional `if`** construction** contains the following elements:
 
 * Keyword `if`
-* **A Boolean expression** (condition)
+* **A Boolean expression** \(condition\)
 * **Body** of the conditional construction
 * Optional: **`else` clause**
 
@@ -97,16 +96,16 @@ else (condition)
 
 To make it easier we can use a code snippet for an **`if` construction**:
 
-* `if`\*\* + \[Tab] + \[Tab]\*\*
+* `if`** + \[Tab\] + \[Tab\]**
 
 ## How to Write a 'For' Loop?
 
 For a **`for` loop** we need a couple of things:
 
-* **Initializing block**, in which the counter variable is declared (`var i`) and its initial value is set
-* **Condition** for repetition (`i <= 10`)
-* Loop variable (counter) **updating statement** (`i++`)
-* **Body** of the loop, holding statements
+- **Initializing block**, in which the counter variable is declared (`var i`) and its initial value is set
+- **Condition** for repetition (`i <= 10`)
+- Loop variable (counter) **updating statement** (`i++`)
+- **Body** of the loop, holding statements
 
 ```csharp
 for (var i = 0; i < 5; i++;)
@@ -115,6 +114,6 @@ for (var i = 0; i < 5; i++;)
 }
 ```
 
-To make it easier we can use a code snippet for a `for`\*\* loop\*\*:
+To make it easier we can use a code snippet for a `for`** loop**:
 
-* `for`\*\* + \[Tab] + \[Tab]\*\*
+* `for`** + \[Tab\] + \[Tab\]**

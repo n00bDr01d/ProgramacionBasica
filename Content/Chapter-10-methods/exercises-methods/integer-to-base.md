@@ -4,14 +4,13 @@ Write a method **`IntegerToBase(number, toBase)`**, which takes as parameters an
 
 ## Sample Input and Output
 
-| Input         | Output | Input         | Output | Input         | Output |
-| ------------- | ------ | ------------- | ------ | ------------- | ------ |
-| <p>3<br>2</p> | 11     | <p>4<br>4</p> | 10     | <p>9<br>7</p> | 12     |
+| Input | Output | Input | Output | Input | Output |
+| --- |----| --- | --- | --- | --- |
+|3<br>2|11|4<br>4|10|9<br>7|12|
 
 ## Hints and Guidelines
 
 In order to solve the problem, we will declare a string, in which we will keep the result. After this we need to do the following calculations to convert the number.
-
 * Calculate **the remainder** of the number, divided by the base.
 * **Insert the remainder** in the beginning of the string.
 * **Divide** the number to the base.
@@ -29,6 +28,6 @@ static string IntegerToBase(int number, int toBase) {
 }
 ```
 
-## Testing in the Judge System
+## Testing in the Judge System 
 
 Test your solution here: [https://judge.softuni.org/Contests/Practice/Index/594#11](https://judge.softuni.org/Contests/Practice/Index/594#11).

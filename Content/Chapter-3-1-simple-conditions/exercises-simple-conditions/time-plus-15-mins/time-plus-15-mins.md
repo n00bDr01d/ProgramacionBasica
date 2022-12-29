@@ -4,13 +4,13 @@ Write a program that **inputs hours and minutes** of a 24-hour day and calculate
 
 ## Sample Input and Output
 
-| Input           | Output |
-| --------------- | ------ |
-| <p>1<br>46</p>  | 2:01   |
-| <p>0<br>01</p>  | 0:16   |
-| <p>23<br>59</p> | 0:14   |
-| <p>11<br>08</p> | 11:23  |
-| <p>12<br>49</p> | 13:04  |
+| Input | Output |
+| --- | ---- |
+| 1<br>46 | 2:01 |
+| 0<br>01 | 0:16 |
+| 23<br>59 | 0:14 |
+| 11<br>08 | 11:23 |
+| 12<br>49 | 13:04 |
 
 ## Hints and Guidelines
 

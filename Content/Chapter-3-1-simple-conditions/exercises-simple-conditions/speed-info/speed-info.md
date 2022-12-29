@@ -4,13 +4,13 @@ Write a program that **inputs the speed** (decimal number) and prints **speed in
 
 ## Sample Input and Output
 
-| Input | Output         |
-| ----- | -------------- |
-| 8     | slow           |
-| 49.5  | average        |
-| 126   | fast           |
-| 160   | ultra fast     |
-| 3500  | extremely fast |
+| Input | Output |
+| --- | ---- |
+| 8 | slow |
+| 49.5 | average |
+| 126 | fast |
+| 160 | ultra fast |
+| 3500 | extremely fast |
 
 ## Testing in the Judge System
 

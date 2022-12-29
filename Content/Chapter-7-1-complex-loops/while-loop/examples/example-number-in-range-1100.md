@@ -1,10 +1,10 @@
-# Example: Number in Range 1…100
+# Example: Number in Range \[1…100\]
 
-Enter an integer in the range \[**1 … 100**]. If the entered number is **invalid**, enter it **again**. In this case, an invalid number will be any number that **is not** within the specified range.
+Enter an integer in the range \[**1 … 100**\]. If the entered number is **invalid**, enter it **again**. In this case, an invalid number will be any number that **is not** within the specified range.
 
-## Video: Numbers in the Range \[1…100]
+## Video: Numbers in the Range \[1…100\]
 
-Watch this video lesson to learn how to enter a number in the range \[1…100]: [https://youtu.be/8W-CIbF4cdA](https://youtu.be/8W-CIbF4cdA).
+Watch this video lesson to learn how to enter a number in the range \[1…100\]: [https://youtu.be/8W-CIbF4cdA](https://youtu.be/8W-CIbF4cdA).
 
 ## Hints and Guidelines
 
@@ -15,10 +15,11 @@ To solve the problem, we can use the following algorithm:
 * In **the body of the loop**: we print a message "**Invalid number!**" on the console, then we assign a new value to `num` from the console input.
 * Once we have validated the entered number, we print the value of the number outside the body of the loop.
 
-Here's a sample implementation of the algorithm using a `while`\*\* loop\*\*:
+Here's a sample implementation of the algorithm using a `while`** loop**:
 
-![](../../../../assets/chapter-7-images/06.Numbers-in-range-1..100-01.png)
+![](/assets/chapter-7-images/06.Numbers-in-range-1..100-01.png)
 
 ## Testing in the Judge System
 
-Test your solution here: [https://judge.softuni.org/Contests/Practice/Index/514#5](https://judge.softuni.org/Contests/Practice/Index/514#5).
+Test your solution here: [https://judge.softuni.org/Contests/Practice/Index/514\#5](https://judge.softuni.org/Contests/Practice/Index/514#5).
+

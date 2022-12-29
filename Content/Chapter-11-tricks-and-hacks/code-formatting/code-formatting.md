@@ -32,7 +32,7 @@ if (someCondition)
 ```
 
 Below you can see an example for **badly formatted code** according to the accepted conventions for writing code in C#:
-
+   
 ```csharp
 if(someCondition){
 Console.WriteLine("Inside the if statement");}
@@ -43,7 +43,6 @@ The first thing that we see is **the curly brackets `{}`**. The first (opening) 
 The same rule applies for **the `for` loops and all other constructions with curly brackets `{}`**. Here are some more examples:
 
 **Correct** formatting:
-
 ```csharp
 for (int i = 0; i < 5; i++)
 {
@@ -52,7 +51,6 @@ for (int i = 0; i < 5; i++)
 ```
 
 **Wrong** formatting:
-
 ```csharp
 for(int i=0;i<5;i++){
 Console.WriteLine(i);
@@ -61,11 +59,11 @@ Console.WriteLine(i);
 
 ## Code Formatting Shortcuts in Visual Studio
 
-For your comfort there are **keyboard shortcuts in Visual Studio**, which we will explain later in this chapter, but for now we are interested in 2 specific combinations. One of the combinations is for formatting **the code in the whole document**, and the other one – for formatting **a part of the code**. If we want to format **the whole code**we need to press \[**CTRL + K + D**]. In case we need to format only **a part of the code**, we need to **mark this part with the mouse** and press \[**CTRL + K + F**].
+For your comfort there are **keyboard shortcuts in Visual Studio**, which we will explain later in this chapter, but for now we are interested in 2 specific combinations. One of the combinations is for formatting **the code in the whole document**, and the other one – for formatting **a part of the code**. If we want to format **the whole code**we need to press [**CTRL + K + D**]. In case we need to format only **a part of the code**, we need to **mark this part with the mouse** and press [**CTRL + K + F**].
 
 The screenshot below illustrates how to **format C# code in Visual Studio**, using the menu commands or keyboard schortcuts:
 
-![](../../../assets/chapter-11-images/00.Code-formatting.png)
+![](/assets/chapter-11-images/00.Code-formatting.png)
 
 Let's use **the wrongly formatted example** from earlier:
 
@@ -75,7 +73,7 @@ Console.WriteLine(i);
 }
 ```
 
-If we press \[**CTRL + K + D**], which is the combination to **format the whole document**, we will have a code, formatted according to **the accepted conventions for C#**, which will look as follows:
+If we press [**CTRL + K + D**], which is the combination to **format the whole document**, we will have a code, formatted according to **the accepted conventions for C#**, which will look as follows:
 
 ```csharp
 for (int i = 0; i < 5; i++)

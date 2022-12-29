@@ -14,7 +14,7 @@ Watch a video lesson about numerical expressions: [https://youtu.be/6MPxlOCsPdw]
 
 ## Example: Calculating Trapezoid Area
 
-Let's write a program that inputs the lengths of the two bases of a trapezoid and its height (one floating point number per line) and calculates the **area of the trapezoid** by the standard math formula:
+Let's write a program that inputs the lengths of the two bases of a trapezoid and its height \(one floating point number per line\) and calculates the **area of the trapezoid** by the standard math formula:
 
 ```csharp
 var b1 = double.Parse(Console.ReadLine());
@@ -35,7 +35,7 @@ Trapezoid area = 17.5
 
 ### Testing in the Judge System
 
-Test your solution here: [https://judge.softuni.org/Contests/Practice/Index/504#4](https://judge.softuni.org/Contests/Practice/Index/504#4).
+Test your solution here: [https://judge.softuni.org/Contests/Practice/Index/504\#4](https://judge.softuni.org/Contests/Practice/Index/504#4).
 
 ## Example: Circle Area and Perimeter
 
@@ -55,19 +55,19 @@ Console.WriteLine("Area = " + Math.PI * r * r);
 Console.WriteLine("Perimeter = " + 2 * Math.PI * r);
 ```
 
-Let's test the program with \*\*radius \*\*`r = 10`:
+Let's test the program with **radius **`r = 10`:
 
-![](../../../assets/chapter-2-images/00.Circle-area-01.jpg)
+![](/assets/chapter-2-images/00.Circle-area-01.jpg)
 
 ### Testing in the Judge System
 
-Test your solution here:[https://judge.softuni.org/Contests/Practice/Index/504#5](https://judge.softuni.org/Contests/Practice/Index/504#5).
+Test your solution here:[https://judge.softuni.org/Contests/Practice/Index/504\#5](https://judge.softuni.org/Contests/Practice/Index/504#5).
 
 ## Example: 2D Rectangle Area
 
 A rectangle is given with the **coordinates of two of its opposite angles**. Calculate its **area and perimeter**:
 
-![](../../../assets/chapter-2-images/00.Rectangle-area-01.png)
+![](/assets/chapter-2-images/00.Rectangle-area-01.png)
 
 In this task, we have to consider that if we subtract the smaller `x` from the bigger `x`, we will obtain the length of the rectangle. Identically, if we subtract the smaller `y` from the bigger `y`, we will obtain the height of the rectangle. What is left is to multiply both sides. Here is an example of an implementation of the described logic:
 
@@ -89,15 +89,15 @@ We use `Math.Max(a, b)`, to find the higher value from `a` and `b` and identical
 
 When the program is executed with the values from the coordinate system given in the condition, we obtain the following result:
 
-![](../../../assets/chapter-2-images/00.Rectangle-area-02.jpg)
+![](/assets/chapter-2-images/00.Rectangle-area-02.jpg)
 
 ### Testing in the Judge System
 
-Test your solution here:[https://judge.softuni.org/Contests/Practice/Index/504#6](https://judge.softuni.org/Contests/Practice/Index/504#6).
+Test your solution here:[https://judge.softuni.org/Contests/Practice/Index/504\#6](https://judge.softuni.org/Contests/Practice/Index/504#6).
 
 ## Other Expressions
 
-Expressions in C# can be not only numerical, but also can be text expressions, date expressions or expressions of other type:
+Expressions in C\# can be not only numerical, but also can be text expressions, date expressions or expressions of other type:
 
 ```csharp
 var price = 20;

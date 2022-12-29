@@ -1,6 +1,6 @@
 # Problem: Fibonacci Numbers
 
-Fibonacci's numbers in mathematics form a sequence that looks like this: **1, 1, 2, 3, 5, 8, 13, 21, 34, …**.
+Fibonacci's numbers in mathematics form a sequence that looks like this:  **1, 1, 2, 3, 5, 8, 13, 21, 34, …**.
 
 **The formula** to form the Fibonacci sequence is:
 
@@ -12,13 +12,13 @@ Fn = Fn-1 + Fn-2
 
 #### Sample Input and Output
 
-| Input (n) | Output | Comment               |
-| --------- | ------ | --------------------- |
-| 10        | 89     | F(11) = F(9) + F(8)   |
-| 5         | 8      | F(5) = F(4) + F(3)    |
-| 20        | 10946  | F(20) = F(19) + F(18) |
-| 0         | 1      | By definition         |
-| 1         | 1      | By definition         |
+| Input \(n\) | Output | Comment |
+| --- | --- | --- |
+| 10 | 89 | F\(11\) = F\(9\) + F\(8\) |
+| 5 | 8 | F\(5\) = F\(4\) + F\(3\) |
+| 20 | 10946 | F\(20\) = F\(19\) + F\(18\) |
+| 0 | 1 | By definition |
+| 1 | 1 | By definition |
 
 Enter **an integer** number **n** and calculate the **n-number of Fibonacci**.
 
@@ -41,8 +41,9 @@ An idea to solve the problem:
 
 Example implementation:
 
-![](../../../../assets/chapter-7-images/12.Fibonacci-01.png)
+![](/assets/chapter-7-images/12.Fibonacci-01.png)
 
 ## Testing in the Judge System
 
-Test your solution here: [https://judge.softuni.org/Contests/Practice/Index/514#13](https://judge.softuni.org/Contests/Practice/Index/514#13).
+Test your solution here: [https://judge.softuni.org/Contests/Practice/Index/514\#13](https://judge.softuni.org/Contests/Practice/Index/514#13).
+

@@ -1,7 +1,6 @@
 # Example: Personal Titles
 
 Depending on **age** (decimal number and **gender** (**m** / **f**), print a personal title:
-
 * “**Mr.**” – a man (gender “**m**”) – 16 or more years old.
 * “**Master**” – a boy (gender “**m**”) under 16 years.
 * “**Ms.**” – a woman (gender “**f**”) – 16 or more years old.
@@ -9,13 +8,13 @@ Depending on **age** (decimal number and **gender** (**m** / **f**), print a per
 
 ## Sample Input and Output
 
-| Input          | Output | Input          | Output |
-| -------------- | ------ | -------------- | ------ |
-| <p>12<br>f</p> | Miss   | <p>17<br>m</p> | Mr.    |
+| Input | Output | Input | Output |
+|----|----|----|----|
+|12<br>f|Miss|17<br>m|Mr.|
 
-| Input          | Output | Input            | Output |
-| -------------- | ------ | ---------------- | ------ |
-| <p>25<br>f</p> | Ms.    | <p>13.5<br>m</p> | Master |
+| Input | Output | Input | Output |
+|----|----|----|----|
+|25<br>f|Ms.|13.5<br>m|Master|
 
 ## Video: Personal Titles
 
@@ -27,11 +26,11 @@ We should notice that the **output** of the program **depends on a few things**.
 
 The diagram below illustrates the process in detail:
 
-![](../../../assets/chapter-4-images/01.Personal-titles-01.jpg)
+![](/assets/chapter-4-images/01.Personal-titles-01.jpg)
 
 After reading the input data from the console, the following program logic should be executed:
 
-![](../../../assets/chapter-4-images/01.Personal-titles-02.png)
+![](/assets/chapter-4-images/01.Personal-titles-02.png)
 
 ## Testing in the Judge System
 

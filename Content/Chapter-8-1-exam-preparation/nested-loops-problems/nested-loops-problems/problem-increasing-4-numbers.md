@@ -14,7 +14,7 @@ In combinatorics such a selection of subset from given set (or range) is called 
 
 ## Input
 
-The input contains two integers **a** and **b** in the range \[**0 … 1000**], one per line.
+The input contains two integers **a** and **b** in the range  [**0 … 1000**], one per line.
 
 ## Output
 
@@ -22,25 +22,25 @@ The output contains all **numbers in batches of four**, in ascending order, one 
 
 ## Sample Input and Output
 
-| Input         | Output                                                     | Input           | Output                                                                                                                                                                                                                                   |
-| ------------- | ---------------------------------------------------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>3<br>7</p> | <p>3 4 5 6<br>3 4 5 7<br>3 4 6 7<br>3 5 6 7<br>4 5 6 7</p> | <p>15<br>20</p> | <p>15 16 17 18<br>15 16 17 19<br>15 16 17 20<br>15 16 18 19<br>15 16 18 20<br>15 16 19 20<br>15 17 18 19<br>15 17 18 20<br>15 17 19 20<br>15 18 19 20<br>16 17 18 19<br>16 17 18 20<br>16 17 19 20<br>16 18 19 20<br>17 18 19 20<br></p> |
+| Input | Output | Input | Output |
+| --- | --- | --- | --- |
+|3<br>7|3 4 5 6<br>3 4 5 7<br>3 4 6 7<br>3 5 6 7<br>4 5 6 7|15<br>20|15 16 17 18<br>15 16 17 19<br>15 16 17 20<br>15 16 18 19<br>15 16 18 20<br>15 16 19 20<br>15 17 18 19<br>15 17 18 20<br>15 17 19 20<br>15 18 19 20<br>16 17 18 19<br>16 17 18 20<br>16 17 19 20<br>16 18 19 20<br>17 18 19 20<br>|
 
-| Input         | Output | Input           | Output      |
-| ------------- | ------ | --------------- | ----------- |
-| <p>5<br>7</p> | No     | <p>10<br>13</p> | 10 11 12 13 |
+| Input | Output | Input | Output |
+| --- | --- | --- | --- |
+|5<br>7|No|10<br>13|10 11 12 13|
 
 ## Reading the Input Data
 
 We will read the input data from the console. We also create the additional variable **`count`**, which will keep track of **existing number ranges**.
 
-![](../../../../assets/chapter-8-1-images/11.Increasing-4-numbers-01.png)
+![](/assets/chapter-8-1-images/11.Increasing-4-numbers-01.png)
 
 ## Implementation with 2 Numbers
 
 We will most easily solve the problem if we logically divide it **in parts**. If we are required to draw all the rows from a number between **`a`** and **`b`**, we will do it using **one loop** that takes all the numbers from **`a`** to **`b`**. Let's think how to do this with **series of two numbers**. The answer is easy – we will use **nested loops**.
 
-![](../../../../assets/chapter-8-1-images/11.Increasing-4-numbers-02.png)
+![](/assets/chapter-8-1-images/11.Increasing-4-numbers-02.png)
 
 We can test the incomplete program to see if it's accurate so far. It must print all pairs of numbers **`i`**, **`j`** for which **`i ≤ j`**.
 
@@ -50,11 +50,11 @@ Since each **next number** of the row must be **greater** than **the previous on
 
 **Similarly**, what remains is to implement **the nested loops** for **four numbers**. We will add an **increase of the counter** that we initialized in order to know if **there is such a sequence**.
 
-![](../../../../assets/chapter-8-1-images/11.Increasing-4-numbers-03.png)
+![](/assets/chapter-8-1-images/11.Increasing-4-numbers-03.png)
 
 Finally, we will check if **the counter** is equal to **0** and we will print "**No**" on the console accordingly, if so.
 
-![](../../../../assets/chapter-8-1-images/11.Increasing-4-numbers-04.png)
+![](/assets/chapter-8-1-images/11.Increasing-4-numbers-04.png)
 
 ## Testing in the Judge System
 

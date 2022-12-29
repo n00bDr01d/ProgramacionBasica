@@ -1,4 +1,4 @@
-# 10. Methods
+# Chapter 10. Methods
 
 In the current chapter we get familiar with **methods** and learn what they **are**, and which are the **base concepts** when working with them. We will also learn why it is a **good practice** to use them, how to **declare** and **call** them. We will look at **parameters** and **return value of a method**, and also understand how to use the returned value. At the end of the chapter we will look at **the established practices** when using methods.
 
@@ -38,9 +38,9 @@ b b
 a
 ```
 
-The above **method** (named piece of code) `PrintLetter(letter, count)` prints given character (`letter`) several times (`count`). It is invoked several times in two loops from the program `Main()` method.
+The above **method** \(named piece of code\) `PrintLetter(letter, count)` prints given character \(`letter`\) several times \(`count`\). It is invoked several times in two loops from the program `Main()` method.
 
-Let's get into details how methods are **defined**, how methods are **invoked**, how methods accept **parameters** (input values) and how methods return **results** (output values).
+Let's get into details how methods are **defined**, how methods are **invoked**, how methods accept **parameters** \(input values\) and how methods return **results** \(output values\).
 
 Methods can take parameters and can **return values**, e.g.
 
@@ -66,4 +66,4 @@ r = 5, area = 78.5398163397448
 r = 2.8, area = 24.630086404144
 ```
 
-Let's get into details on how to **define, invoke and use methods** in C#, how to take and pass **parameters** and to **return values**.
+Let's get into details on how to **define, invoke and use methods** in C\#, how to take and pass **parameters** and to **return values**.

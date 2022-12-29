@@ -1,55 +1,55 @@
-# Lab: Web Application "Summator"
+# Laboratorio: Aplicación Web "Summator" (Calculadora)
 
-Now we are going to create something even more complex, but also more interesting: Web application that **calculates the sum of two numbers**. By **entering two numbers** in the first two text fields and pressing the \[**Calculate**] button, **their sum is being calculated** and the result is shown in the third text field.
+Ahora vamos a crear algo aún más complejo, pero también más interesante: Aplicación web que **calcula la suma de dos números**. Al **introducir dos números** en los dos primeros campos de texto y pulsar el botón \[**Calcular**], **se calcula su suma** y el resultado se muestra en el tercer campo de texto.
 
-Pay attention that we are creating **a Web-based application**. This is an application that is available through a web browser, just like your favorite email or news website. The web application is going to have a server side (back-end), which is written in the C# language with the ASP.NET MVC technology, and a client side (front-end), which is written in the HTML language (this is a language for visualization of information in a web browser).
+Preste atención a que estamos creando **una aplicación basada en la Web**. Esta es una aplicación que está disponible a través de un navegador web, al igual que su correo electrónico favorito o sitio web de noticias. La aplicación web va a tener un lado servidor (back-end), que está escrito en el lenguaje C # con la tecnología MVC ASP.NET, y un lado cliente (front-end), que está escrito en el lenguaje HTML (este es un lenguaje para la visualización de información en un navegador web).
 
-The **Web application** is expected to look similarly to the following:
+Se espera que la **aplicación web** tenga un aspecto similar al siguiente:
 
-![](../../../../assets/chapter-1-images/08.Numbers-sum-web-01.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/08.Numbers-sum-web-01.png)
 
-As a difference compared to console applications, which read and write the data in the form of a text on the console, Web applications have **a Web-based user interface**. Web applications **are being loaded from some Internet address** (URL) through a standard web browser. Users write input data in a page, visualized from the web browser, the data is processed on a web server and the results are shown again in a page of the web browser. For our web application we are going to use **the ASP.NET MVC technology**, which allows creating of **web applications with the programming language C#** in the development environment **Visual Studio**.
+Como diferencia en comparación con las aplicaciones de consola, que leen y escriben los datos en forma de texto en la consola, las aplicaciones web tienen **una interfaz de usuario basada en web**. Las aplicaciones web **se cargan desde alguna dirección de Internet** (URL) a través de un navegador web estándar. Los usuarios escriben datos de entrada en una página, visualizados desde el navegador web, los datos se procesan en un servidor web y los resultados se muestran nuevamente en una página del navegador web. Para nuestra aplicación web vamos a utilizar **la tecnología ASP.NET MVC**, que permite crear **aplicaciones web con el lenguaje de programación C# en el** entorno de desarrollo **Visual Studio**.
 
-## Creating a New ASP.NET MVC Project
+### Creación de un nuevo proyecto MVC ASP.NET <a href="#creating-a-new-aspnet-mvc-project" id="creating-a-new-aspnet-mvc-project"></a>
 
-In Visual Studio we create **a new C# project of type “ASP.NET Web Application”** with name **WebApp**:
+En Visual Studio creamos **un nuevo proyecto de C# de tipo "ASP.NET Web Application"** con el nombre **WebApp**:
 
-![](../../../../assets/chapter-1-images/08.Numbers-sum-web-02.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/08.Numbers-sum-web-02.png)
 
-We choose as **type** of the application: **“MVC”**:
+Elegimos como **tipo** de aplicación: "**MVC"**:
 
-![](../../../../assets/chapter-1-images/08.Numbers-sum-web-03.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/08.Numbers-sum-web-03.png)
 
-## Creating a View (Web Form)
+### Crear una vista (formulario Web Forms) <a href="#creating-a-view-web-form" id="creating-a-view-web-form"></a>
 
-We find the file `Views\Home\Index.cshtml`. **The view of the home page** of our web application is inside it:
+Encontramos el archivo . **La vista de la página de inicio** de nuestra aplicación web está dentro de ella:`Views\Home\Index.cshtml`
 
-![](../../../../assets/chapter-1-images/08.Numbers-sum-web-04.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/08.Numbers-sum-web-04.png)
 
-We delete the old code from \*\*the file \*\*`Index.cshtml` and write the following code:
+Eliminamos el código antiguo **del archivo** y escribimos el siguiente código:`Index.cshtml`
 
-![](../../../../assets/chapter-1-images/08.Numbers-sum-web-05.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/08.Numbers-sum-web-05.png)
 
-This code **creates a web form with three text boxes and a button in it**. Inside the fields, values are being loaded, which are calculated previously in the object `ViewBag`. The requirement says that with the click of the \[**Calculate**] button the action `/home/calculate`\*\* (action **`calculate`** from the **`home`** controller)\*\* will be called.
+Este código **crea un formulario web con tres cuadros de texto y un botón**. Dentro de los campos, se están cargando valores, que se calculan previamente en el objeto . El requisito dice que con el clic del botón \[**Calcular**] se llamará a la acción **(acción del controlador).**`ViewBag/home/calculatecalculatehome`
 
-Here is how \*\*the file \*\*`Index.cshtml` is supposed to look after the change:![](../../../../assets/chapter-1-images/08.Numbers-sum-web-06.png)
+Así es como se supone que **debe verse el archivo** después del cambio:`Index.cshtml`![](https://csharp-book.softuni.org/assets/chapter-1-images/08.Numbers-sum-web-06.png)
 
-## Writing the Program Code
+### Escribir el código del programa <a href="#writing-the-program-code" id="writing-the-program-code"></a>
 
-What remains is to write **the action** that **sums the numbers when clicking the button** \[**Calculate**]. We open the file `Controllers\HomeController.cs` and we add the following code into the body of `HomeController` class:
+Lo que queda es escribir **la acción** que **suma los números al hacer clic en el botón** \[**Calcular**]. Abrimos el archivo y agregamos el siguiente código en el cuerpo de la clase:`Controllers\HomeController.csHomeController`
 
-![](../../../../assets/chapter-1-images/08.Numbers-sum-web-07.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/08.Numbers-sum-web-07.png)
 
-This code implements the “**calculate**” action. It takes two parameters `num1` and `num2` and records them in the objects `ViewBag`, after which **it calculates and records** their sum. The values recorded in `ViewBag` are then **used from the view**, in to be shown in the **three text fields** inside the form for summing numbers in the web page of the application.
+Este código implementa la acción "**calcular**". Toma dos parámetros y los registra en los objetos, después **de lo cual calcula y registra** su suma. Los valores registrados en se utilizan desde la vista, para que se muestren en los **tres campos de texto** dentro del formulario para sumar números en la página web de **la** aplicación.`num1num2ViewBagViewBag`
 
-Here is how \*\*the file \*\*`HomeController.cs` should look after the change:
+Así es como debería verse **el archivo** después del cambio:`HomeController.cs`
 
-## Testing the Application
+### Prueba de la aplicación <a href="#testing-the-application" id="testing-the-application"></a>
 
-The application is ready. We can start it with \[**Ctrl+F5**] and test whether it works:
+La aplicación está lista. Podemos iniciarlo con \[**Ctrl+F5**] y probar si funciona:
 
-![](../../../../assets/chapter-1-images/08.Numbers-sum-web-09.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/08.Numbers-sum-web-09.png)
 
-Does it look scary? **Don't be afraid!** We have a lot more to learn, to reach the level of knowledge and skills to write web-based applications freely like in the example above, as well as much bigger and much more complex ones. If you don't succeed, there is nothing to worry about, keep moving on. After some time, you will remember with a smile how incomprehensible and exiting your first collision with web programming was. If you have problems with the example above, you can ask for assistance in the SoftUni official **discussion forum** (https://www.reddit.com/r/softuni) or in the SoftUni official **Facebook page** (https://fb.com/softuni.org).
+¿Da miedo? **¡No tengas miedo!** Tenemos mucho más que aprender, para alcanzar el nivel de conocimiento y habilidades para escribir aplicaciones basadas en web libremente como en el ejemplo anterior, así como otras mucho más grandes y mucho más complejas. Si no tienes éxito, no hay nada de qué preocuparse, sigue adelante. Después de algún tiempo, recordará con una sonrisa lo incomprensible y emocionante que fue su primera colisión con la programación web.&#x20;
 
-The purpose of both of the above examples (graphical desktop application and web application) is not to teach you, but to make you dive a little deeper into programming, **to enhance your interest** towards software development and to inspire you to learn hard. **You have a lot to learn yet**, but it's interesting, isn't it?
+El propósito de los dos ejemplos anteriores (aplicación gráfica de escritorio y aplicación web) no es enseñarle, sino hacer que se sumerja un poco más profundamente en la programación, **para aumentar su interés** hacia el desarrollo de software e inspirarlo a aprender mucho. **Todavía tienes mucho que aprender**, pero es interesante, ¿no?

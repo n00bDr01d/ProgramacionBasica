@@ -1,4 +1,4 @@
-# 9.1. Problems for Champions – Part I
+# Chapter 9.1. Problems for Champions – Part I
 
 In this chapter, we will offer the reader a few **more difficult tasks** that aim to develop **algorithmic skills** and acquire **programming techniques** to solve tasks with higher complexity.
 
@@ -10,6 +10,6 @@ We will solve together several programming problems that cover the material stud
 
 The problems that we will solve in this chapter, are:
 
-* [Problem: Crossing Sequences](crossing-sequences/crossing-sequences.md)
-* [Problem: Magic Dates](magic-dates/magic-dates.md)
-* [Problem: Five Special Letters](five-special-letters/five-special-letters.md)
+* [Problem: Crossing Sequences](/Content/Chapter-9-1-problems-for-champions/crossing-sequences/crossing-sequences.md)
+* [Problem: Magic Dates](/Content/Chapter-9-1-problems-for-champions/magic-dates/magic-dates.md)
+* [Problem: Five Special Letters](/Content/Chapter-9-1-problems-for-champions/five-special-letters/five-special-letters.md)

@@ -1,6 +1,6 @@
-# Problem: Triangle of 55 Stars
+# Problema: Triángulo de 55 estrellas
 
-Write a C# console program that **prints a triangle made of 55 stars** on 10 lines:
+Escriba un programa de consola de C# que **imprima un triángulo hecho de 55 estrellas** en 10 líneas:
 
 ```
 *
@@ -15,13 +15,9 @@ Write a C# console program that **prints a triangle made of 55 stars** on 10 lin
 **********
 ```
 
-## Video: Problem "Triangle of 55 Stars"
+### Consejos y directrices <a href="#hints-and-guidelines" id="hints-and-guidelines"></a>
 
-Watch a video lesson to learn how to solve the "Triangle of 55 Stars" problem step by step: https://youtu.be/BflTRoOQYLA.
-
-## Hints and Guidelines
-
-Create **a new console C# application** with name “`TriangleOf55Stars`”. Inside it, write code that prints the triangle of stars, for example through 10 commands, as the ones pointed out below:
+Cree **una nueva aplicación de consola de C#** con el nombre "". Dentro de él, escribe código que imprima el triángulo de estrellas, por ejemplo a través de 10 comandos, como los que se señalan a continuación:`TriangleOf55Stars`
 
 ```csharp
 Console.WriteLine("*");
@@ -29,8 +25,8 @@ Console.WriteLine("**");
 …
 ```
 
-## Testing in the Judge System
+### Pruebas en el sistema de jueces <a href="#testing-in-the-judge-system" id="testing-in-the-judge-system"></a>
 
-Test your solution here: [https://judge.softuni.org/Contests/Practice/Index/503#3](https://judge.softuni.org/Contests/Practice/Index/503#3).
+Pruebe su solución aquí: [https://judge.softuni.org/Contests/Practice/Index/503#3](https://judge.softuni.org/Contests/Practice/Index/503#3).
 
-Try to **improve your solution**, so that it doesn't have many repeating commands. Could it be done with a `for` loop? Did you find a smart solution (for example with a loop) of the previous task? With this task you can also use something similar, but a bit more complex (two loops, one inside the other). If you don't succeed, there is no problem, we will be learning loops in a few chapters and you will be reminded of this task then.
+Intente **mejorar su solución**, para que no tenga muchos comandos repetitivos. ¿Podría hacerse con un bucle? ¿Encontraste una solución inteligente (por ejemplo, con un bucle) de la tarea anterior? Con esta tarea también puedes usar algo similar, pero un poco más complejo (dos bucles, uno dentro del otro). Si no tiene éxito, no hay problema, estaremos aprendiendo bucles en unos pocos capítulos y se le recordará esta tarea entonces.`for`

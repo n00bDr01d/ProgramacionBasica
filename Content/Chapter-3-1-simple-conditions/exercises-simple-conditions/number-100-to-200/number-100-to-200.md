@@ -4,11 +4,11 @@ Write a program that **inputs an integer** and checks if it is **below 100**, **
 
 ## Sample Input and Output
 
-| Input | Output              |
-| ----- | ------------------- |
-| 95    | Less than 100       |
-| 120   | Between 100 and 200 |
-| 210   | Greater than 200    |
+| Input | Output |
+| --- | ---- |
+| 95 | Less than 100 |
+| 120 | Between 100 and 200 |
+| 210 | Greater than 200 |
 
 ## Testing in the Judge System
 

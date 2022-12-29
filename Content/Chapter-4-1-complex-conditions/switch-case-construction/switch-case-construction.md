@@ -33,16 +33,17 @@ Let's write a program that prints **the day of the week** (in English) depending
 
 ### Sample Input and Output
 
-| Input               | Output                            |
-| ------------------- | --------------------------------- |
-| <p>1<br>7<br>-1</p> | <p>Monday<br>Sunday<br>Error!</p> |
+| Input | Output |
+|-----|-----|
+|1<br>7<br>-1|Monday<br>Sunday<br>Error!|
 
 ### Solution
 
-![](../../../assets/chapter-4-images/09.Day-of-week-01.png)
+![](/assets/chapter-4-images/09.Day-of-week-01.png)
 
-| ![](../../../assets/alert-icon.png) | It is a good practice to put at the first place those `case` statements that process the most common situations and leave the `case` constructions processing the more rear situations at the end, before the `default` construction. Another good practice is to arrange the `case` labels in ascending order, regardless of whether they are integral or symbolic. |
-| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
+<td><b>It is a good practice</b> to put at the <b>first</b> place those <b><code>case</code> statements</b> that process <b>the most common situations</b> and leave the <b><code>case</code> constructions</b> processing <b>the more rear situations</b> at <b>the end, before the <code>default</code> construction</b>. Another <b>good practice</b> is to <b>arrange the <code>case</code> labels</b> in <b>ascending order</b>, regardless of whether they are integral or symbolic.</td>
+</tr></table>
 
 ### Testing in the Judge System
 
@@ -73,7 +74,7 @@ switch (selector)
 
 ## Example: Animal Type
 
-Write a program that prints the type of the animal depending on its name:
+Write a program that prints the type of the animal depending on its name: 
 
 * dog -> **mammal**
 * crocodile, tortoise, snake -> **reptile**
@@ -81,15 +82,15 @@ Write a program that prints the type of the animal depending on its name:
 
 ### Sample Input and Output
 
-| Input    | Output  | Input | Output | Input    | Output  |
-| -------- | ------- | ----- | ------ | -------- | ------- |
-| tortoise | reptile | dog   | mammal | elephant | unknown |
+| Input | Output | Input | Output | Input | Output |
+|-----|-----|-----|-----|-----|-----|
+|tortoise|reptile|dog|mammal|elephant|unknown|
 
 ### Solution
 
 We can solve the task with **`switch`**-**`case`** conditions with multiple labels in the following way:
 
-![](../../../assets/chapter-4-images/10.Animal-type-01.png)
+![](/assets/chapter-4-images/10.Animal-type-01.png)
 
 ### Testing in the Judge System
 

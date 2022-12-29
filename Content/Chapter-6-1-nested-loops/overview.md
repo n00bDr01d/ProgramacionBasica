@@ -1,4 +1,4 @@
-# 6.1. Nested Loops
+# Chapter 6.1. Nested Loops
 
 In the current chapter we will be looking at **nested loops** and how to use `for` loops to **draw** various **figures on the console**, that contain symbols and signs, ordered in rows and columns on the console. We will use **single** and **nested loops** (loops that stay in other loops), **calculations** and **checks**, in order to print on the console simple and not so simple figures by specified sizes.
 
@@ -67,4 +67,4 @@ The above code will print on the console the following **output**:
     *
 ```
 
-Let's explain in greater detail how to use **nested loops** to implement more complex logic in our C# programs.
+Let's explain in greater detail how to use **nested loops** to implement more complex logic in our C\# programs.

@@ -1,37 +1,31 @@
-# Problem: Rectangle Area
+# Problema: Calcular el área del rectángulo
 
-Write a C# program that **reads** from the console **two numbers, a and b**, **calculates** and **prints** the area of a rectangle with sides **a** and **b**.
+Escriba un programa de C# que **lea** desde la consola **dos números**, a y b, **calcule** e **imprima** el área de un rectángulo con los lados **a** y **b**.
 
-#### Sample Input and Output
+**Entrada y salida de muestra**
 
-|  a  |  b  | area |
-| :-: | :-: | :--: |
-|  2  |  7  |  14  |
-|  7  |  8  |  56  |
-|  12 |  5  |  60  |
+| un | b | área |
+| -- | - | ---- |
+| 2  | 7 | 14   |
+| 7  | 8 | 56   |
+| 12 | 5 | 60   |
 
-## Video: Problem "Rectangle Area"
+### Vídeo: Problema "Área rectangular" <a href="#video-problem-rectangle-area" id="video-problem-rectangle-area"></a>
 
-Watch a video lesson to learn how to solve the "Rectangle Area" problem step by step: https://youtu.be/6fwNJ5k9zTE.
+### Consejos y directrices <a href="#hints-and-guidelines" id="hints-and-guidelines"></a>
 
-## Hints and Guidelines
+Cree un nuevo **programa de consola de C#**. Para **leer ambos números**, utilice los siguientes comandos:
 
-Create a new **console C# program**. To **read both of numbers**, use the following commands:
+![](https://csharp-book.softuni.org/assets/chapter-1-images/05.Rectangle-area-01.png)
 
-![](../../../assets/chapter-1-images/05.Rectangle-area-01.png)
+Lo que queda es terminar el programa anterior, calcular el área del rectángulo e imprimirlo. Usa el comando que ya conocemos y pon dentro de sus corchetes la multiplicación de los números **a** y **b**. En programación, la multiplicación se realiza utilizando el operador .`Console.WriteLine()*`
 
-What remains is to finish the program above, to calculate the area of the rectangle and to print it. Use the command that is already known to us `Console.WriteLine()` and put inside its brackets the multiplication of the numbers **a** and **b**. In programming, multiplication is done using the operator `*`.
+### Pruebe su solución <a href="#test-your-solution" id="test-your-solution"></a>
 
-## Test Your Solution
-
-Test your solution with a few examples. You have to get an output, similar to this one (we enter 2 and 7 as input and the program prints result 14 – their multiplication):
+Pruebe la solución con algunos ejemplos. Tienes que obtener una salida, similar a esta (ingresamos 2 y 7 como entrada y el programa imprime el resultado 14 – su multiplicación):
 
 ```
 2
 7
 14
 ```
-
-## Testing in the Judge System
-
-Test your solution here: [https://judge.softuni.org/Contests/Practice/Index/503#4](https://judge.softuni.org/Contests/Practice/Index/503#4).

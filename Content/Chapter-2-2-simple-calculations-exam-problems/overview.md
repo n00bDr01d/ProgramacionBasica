@@ -1,4 +1,4 @@
-# 2.2. Simple Calculations – Exam Problems
+# Chapter 2.2. Simple Calculations – Exam Problems
 
 In the previous chapter, we explained how to work with the system console – how to **read numbers** from it and how to **print the output**. We went through the main arithmetical operations and briefly mentioned data types. Now, we are going to practice what we have learned by solving a few **more complex exam problems**.
 
@@ -12,7 +12,7 @@ Before going to the tasks, we are going to revise the most important aspects of 
 
 ### Reading an Integer
 
-We need to create a variable to store the integer (for example, `num`) and use a standard command for reading input from the console `Console.ReadLine()`, combined with the function `int.Parse(…)` which converts string to an integer:
+We need to create a variable to store the integer \(for example, `num`\) and use a standard command for reading input from the console `Console.ReadLine()`, combined with the function `int.Parse(…)` which converts string to an integer:
 
 ```csharp
 var num = int.Parse(Console.ReadLine());
@@ -66,7 +66,7 @@ var result2 = 5 / 2.0; // the result is 2.5 (floating-point division)
 
 ## String Concatenation
 
-By using the operator `+` between string variables (or between a string and a number), **concatenation** is being performed (combining strings).
+By using the operator `+` between string variables \(or between a string and a number\), **concatenation** is being performed \(combining strings\).
 
 ```csharp
 var firstName = "Ivan";
@@ -80,8 +80,8 @@ var str = firstName + " " + lastName + " is " + age + " years old";
 
 Now, after having revised how to make simple calculations and how to read and print numbers from the console, let' s go to the tasks. We will solve a few **problems from a SoftUni entrance exam:**
 
-* [Problem: Training Lab](exam-problems/training-lab/training-lab.md)
-* [Problem: Vegetables Market](exam-problems/vegetables-market/vegetables-market.md)
-* [Problem: Changing Tiles](exam-problems/change-tiles/change-tiles.md)
-* [Problem: Money](exam-problems/money/money.md)
-* [Problem: Daily Earnings](exam-problems/daily-earnings/daily-earnings.md)
+* [Problem: Training Lab](/Content/Chapter-2-2-simple-calculations-exam-problems/exam-problems/training-lab/training-lab.md)
+* [Problem: Vegetables Market](/Content/Chapter-2-2-simple-calculations-exam-problems/exam-problems/vegetables-market/vegetables-market.md)
+* [Problem: Changing Tiles](/Content/Chapter-2-2-simple-calculations-exam-problems/exam-problems/change-tiles/change-tiles.md)
+* [Problem: Money](/Content/Chapter-2-2-simple-calculations-exam-problems/exam-problems/money/money.md)
+* [Problem: Daily Earnings](/Content/Chapter-2-2-simple-calculations-exam-problems/exam-problems/daily-earnings/daily-earnings.md)

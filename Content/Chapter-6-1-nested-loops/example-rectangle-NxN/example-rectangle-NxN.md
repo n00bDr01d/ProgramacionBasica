@@ -1,10 +1,10 @@
-# Example: Rectangle of N x N Stars
+# Example: Rectangle Made of N x N Stars
 
 Write a program that gets a positive integer **n** and prints on the console **a rectangle made out of N x N stars**.
 
-| Input | Output                                    | Input | Output                                                          | Input | Output                                                                                  |
-| ----- | ----------------------------------------- | ----- | --------------------------------------------------------------- | ----- | --------------------------------------------------------------------------------------- |
-| 2     | <p><code>**</code><br><code>**</code></p> | 3     | <p><code>***</code><br><code>***</code><br><code>***</code></p> | 4     | <p><code>****</code><br><code>****</code><br><code>****</code><br><code>****</code></p> |
+|Input|Output|Input|Output|Input|Output|
+|---|---|---|---|---|---|
+|2|<code>\*\*</code><br><code>\*\*</code>|3|<code>\*\*\*</code><br><code>\*\*\*</code><br><code>\*\*\*</code>|4|<code>\*\*\*\*</code><br><code>\*\*\*\*</code><br><code>\*\*\*\*</code><br><code>\*\*\*\*</code>|
 
 ## Video: Rectangle of N x N Stars
 
@@ -14,7 +14,7 @@ Watch this video lesson to learn how to print a rectangle of N x N stars on the 
 
 This is sample solution, which uses a single loop, holding a command to print `n` stars:
 
-![](../../../assets/chapter-6-images/02.Rectangle-of-N-x-N-stars-01.png)
+![](/assets/chapter-6-images/02.Rectangle-of-N-x-N-stars-01.png)
 
 You may also use **nested for-loops**: outer loop 1..n for the **rows** and inner loop 1…n for the **columns**, which prints a single star.
 

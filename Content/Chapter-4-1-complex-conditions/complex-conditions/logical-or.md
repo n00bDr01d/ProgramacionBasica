@@ -2,9 +2,9 @@
 
 The logical **"OR"** (operator **`||`**) means that **at least one** among a few conditions is fulfilled. Similar to the operator **`&&`**, the logical **"OR"** accepts a few arguments of **bool** (conditional) type and returns **`true`** or **`false`**. We can easily guess that we **obtain** a value **`true`** every time when at least **one** of the arguments has a **`true`** value. This is shown at the truth table below:
 
-|                   a                   |                   b                   |               a \|\| b               |
-| :-----------------------------------: | :-----------------------------------: | :----------------------------------: |
-| <p>true<br>true<br>false<br>false</p> | <p>true<br>false<br>true<br>false</p> | <p>true<br>true<br>true<br>false</p> |
+|a|b|a &#124;&#124; b|
+|:-----:|:-----:|:-----:|
+|true<br>true<br>false<br>false|true<br>false<br>true<br>false|true<br>true<br>true<br>false|
 
 Typical example of the logic of this operator is the following: At school the teacher says: "John or Peter should clean the board". To fulfill this condition (to clean the board), it is possible either just for John to clean it, or just for Peter to clean it, or both of them to do it together.
 
@@ -14,7 +14,7 @@ Watch this video to learn how to use logical "OR" in programming: https://youtu.
 
 ## How the || Operator Works?
 
-We have already learned what the logical\*\*"OR" represents\*\*. But how is it actually being achieved? Just like with the logical **"AND"**, the program **checks** from left to right **the arguments** that are given. In order to obtain **`true`** from the expression, it is necessary for **just one** argument to have a **`true`** value. Respectively, the checking **continues** until an **argument** with **such** value is met or until the arguments **are over**.
+We have already learned what the logical**"OR" represents**. But how is it actually being achieved? Just like with the logical **"AND"**, the program **checks** from left to right **the arguments** that are given. In order to obtain **`true`** from the expression, it is necessary for **just one** argument to have a **`true`** value. Respectively, the checking **continues** until an **argument** with **such** value is met or until the arguments **are over**.
 
 Here is one **example** of the **`||`** operator in action:
 
@@ -35,15 +35,15 @@ Let's check whether a given **product** is **a fruit** or **a vegetable**. The "
 
 ### Sample Input and Output
 
-| Input                           | Output                               |
-| ------------------------------- | ------------------------------------ |
-| <p>banana<br>tomato<br>java</p> | <p>fruit<br>vegetable<br>unknown</p> |
+| Input | Output |
+|----|----|
+|banana<br>tomato<br>java|fruit<br>vegetable<br>unknown|
 
 ### Solution
 
 We have to use a few conditional statements with logical "**OR**" (**`||`**):
 
-![](../../../assets/chapter-4-images/04.Fruit-or-vegetable-01.png)
+![](/assets/chapter-4-images/04.Fruit-or-vegetable-01.png)
 
 ### Testing in the Judge System
 

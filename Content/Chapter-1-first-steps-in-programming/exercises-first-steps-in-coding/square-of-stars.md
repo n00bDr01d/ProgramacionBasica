@@ -1,27 +1,23 @@
-# \* Problem: Square of Stars
+# \* Problema: Un cuadrado hecho de estrellas
 
-Write a C# console program that **reads** from the console **an integer N** and **prints** on the console **a square made out of N stars**, like in the examples below.
+## Problema: Un cuadrado hecho de estrellas <a href="#problem-a-square-made-of-stars" id="problem-a-square-made-of-stars"></a>
 
-## Sample Input and Output
+Escriba un programa de consola de C# que **lea** de la consola un **entero** N e **imprima** en la consola **un cuadrado hecho de N estrellas**, como en los ejemplos siguientes.
 
-| Input | Output                                                          | Input | Output                                                                                  | Input | Output                                                                                                            |
-| ----- | --------------------------------------------------------------- | ----- | --------------------------------------------------------------------------------------- | ----- | ----------------------------------------------------------------------------------------------------------------- |
-| 3     | <p><code>***</code><br><code>* *</code><br><code>***</code></p> | 4     | <p><code>****</code><br><code>*  *</code><br><code>*  *</code><br><code>****</code></p> | 5     | <p><code>*****</code><br><code>*   *</code><br><code>*   *</code><br><code>*   *</code><br><code>*****</code></p> |
+### Entrada y salida de muestra <a href="#sample-input-and-output" id="sample-input-and-output"></a>
 
-## Video: Problem "Square of Stars"
+| Entrada | Salida                                                          | Entrada | Salida                                                                                  | Entrada | Salida                                                                                                            |
+| ------- | --------------------------------------------------------------- | ------- | --------------------------------------------------------------------------------------- | ------- | ----------------------------------------------------------------------------------------------------------------- |
+| 3       | <p><code>***</code><br><code>* *</code><br><code>***</code></p> | 4       | <p><code>****</code><br><code>*  *</code><br><code>*  *</code><br><code>****</code></p> | 5       | <p><code>*****</code><br><code>*   *</code><br><code>*   *</code><br><code>*   *</code><br><code>*****</code></p> |
 
-Watch a video lesson to learn how to solve the "Square of Stars" problem step by step: https://youtu.be/zaj-DRbaHaI.
+### Video: Problema "Cuadrado de estrellas" <a href="#video-problem-square-of-stars" id="video-problem-square-of-stars"></a>
 
-## Hints and Guidelines
+### Consejos y directrices <a href="#hints-and-guidelines" id="hints-and-guidelines"></a>
 
-Create a new **console C# program**. To read the number N (2 ≤ N ≤100), use the following code:
+Cree un nuevo **programa de consola de C#**. Para leer el número N (2 ≤ N ≤100), utilice el código siguiente:
 
-![](../../../assets/chapter-1-images/06.Square-of-stars-01.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/06.Square-of-stars-01.png)
 
-Finish the program above, so that it prints a square, made out of stars. It might be necessary to use **`for`** loops. Look for information on the Internet.
+Termine el programa de arriba, para que imprima un cuadrado, hecho de estrellas. Puede ser necesario utilizarlo **`para`** bucles. Busque información en Internet.
 
-**Attention**: this task is harder than the rest and is given now on purpose, and it's marked with a star, in order to provoke you to look for information on the Internet. This is one of the most important skills that you have to develop while you're learning programming: **looking for information on the Internet**. This is what you're going to do every day, if you work as a developer, so don't be scared, try it out. If you have any difficulties, you can also ask for help in the SoftUni official **discussion forum** (https://www.reddit.com/r/softuni) or in the SoftUni official **Facebook page** (https://fb.com/softuni.org).
-
-## Testing in the Judge System
-
-Test your solution here: [https://judge.softuni.org/Contests/Practice/Index/503#5](https://judge.softuni.org/Contests/Practice/Index/503#5).
+**Atención**: esta tarea es más difícil que el resto y se da ahora a propósito, y está marcada con una estrella, con el fin de provocar que busques información en Internet. Esta es una de las habilidades más importantes que tienes que desarrollar mientras aprendes programación: **buscar información en Internet**. Esto es lo que vas a hacer todos los días, si trabajas como desarrollador, así que no tengas miedo, pruébalo.&#x20;

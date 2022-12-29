@@ -1,12 +1,16 @@
-# Programas de Computadora – Conceptos
+# Computer Programs – Concepts
 
-Comencemos con los conceptos de programación de **computadoras**: programas de computadora, algoritmos, lenguajes de programación, compilación y ejecución de código.
+Let's start with the **concepts of computer programming**: computer programs, algorithms, programming languages, code compilation and execution.
 
-## ¿Qué significa "programar"?
+## Video: Computer Programs, Compilers, Interpreters
 
-**Programar** significa **dar comandos** a la computadora, por ejemplo, "_reproducir un sonido_", "_imprimir algo en la pantalla_" o "_multiplicar dos números_". Cuando los comandos son uno tras otro, se llaman **un programa de computadora**. El texto de los programas de computadora se llama código de programa (o código **fuente**, o incluso **código** más **corto).**
+Watch a video lesson about the concepts of programming, programs, compilers and interpreters here: https://youtu.be/U16C61p6m1k.
 
-Ejemplo de **comando** para el equipo:
+## What It Means "To Program"?
+
+**To program** means to **give commands** to the computer, for example "_to play a sound_", "_to print something on the screen_" or "_to multiply two numbers_". When the commands are one after another, they are called **a computer program**. The text of computer programs is called **a program code** \(or **a source code**, or even shorter – **code**\).
+
+Example of **command** for the computer:
 
 ```csharp
 Console.WriteLine("Welcome to coding");
@@ -20,11 +24,11 @@ When **executed**, the above command prints the following text:
 Welcome to coding
 ```
 
-## Programas de computadora
+## Computer Programs
 
-**Los programas de computadora** representan **una secuencia de comandos** que están escritos en cierto **lenguaje de programación**, como C #, Java, JavaScript, Python, C ++, PHP, C, Ruby, Swift, Go u otro.
+**Computer programs** represent **a sequence of commands** that are written in certain **programming language**, like C\#, Java, JavaScript, Python, C++, PHP, C, Ruby, Swift, Go or another.
 
-Ejemplo de **programa informático** en C#:
+Example of **computer program** in C\#:
 
 ```csharp
 using System;
@@ -42,45 +46,66 @@ class SquareArea
 
 Run the above code example: [https://repl.it/@nakov/square-area-csharp](https://repl.it/@nakov/square-area-csharp).
 
-El programa anterior define una **clase** , que contiene un **método** , que contiene una secuencia de **3 comandos** `SquareArea Main()`
+The above program defines a **class **`SquareArea`, holding a **method **`Main()`, which holds a sequence of **3 commands**:
 
-1. Declarar y asignar una **variable**: `var size = 5;`
-2. Calcular e **imprimir** una **expresión**: `Console.WriteLine("Size = " + size);`
-3. Calcular e **imprimir** una **expresión**: `Console.WriteLine("Area = " + size * size);`
+1. Declaring and assigning a **variable**: `var size = 5;`
+2. Calculating and **printing** an **expression**: `Console.WriteLine("Size = " + size);`
+3. Calculating and **printing** an **expression**: `Console.WriteLine("Area = " + size * size);`
 
-Calcular e **imprimir** una **expresión**:
+The **result** \(output\) from the above program is as follows:
 
 ```
 Size = 5
 Area = 25
 ```
 
-**Explicaremos en detalle cómo escribir programas en C #**, por qué necesitamos definir una **clase** y por qué necesitamos definir un **método** un poco más tarde. Ahora, supongamos que el lenguaje C # requiere todo el código anterior para ejecutar una secuencia de comandos.`Main()`
+We shall **explain in detail how to write programs in C\#**, why we need to define a **class** and why we need to define a **method** `Main()` a bit later. Now, assume that the C\# language requires all the above code in order to execute a sequence of command.
 
-Para escribir comandos, debemos conocer la **sintaxis y la semántica del lenguaje con el** que estamos trabajando, en nuestro caso, **C #**. Por lo tanto, vamos a familiarizarnos con la sintaxis y la semántica del lenguaje C #, y con la programación en general, en el presente libro, aprendiendo paso a paso la escritura de código desde las construcciones de programación más simples hasta las más complejas.
+In order to write commands, we should know **the syntax and the semantics of the language** which we are working with, in our case – **C\#**. Therefore, we are going to get familiar with the syntax and the semantics of the language C\#, and with programming generally, in the current book, by learning step by step code writing from the simpler to the more complex programming constructions.
 
-## Algoritmos <a href="#algorithms" id="algorithms"></a>
+## Algorithms
 
-Los programas informáticos suelen ejecutar algún algoritmo. **Los algoritmos** son una **secuencia de pasos**, necesarios para completar una determinada tarea y para obtener algún resultado esperado, algo así como una "receta".
+Computer programs usually execute some algorithm. **Algorithms** are a **sequence of steps**, necessary for the completion of a certain task and for gaining some expected result, something like a "recipe".
 
-Por ejemplo, si freímos huevos, seguimos alguna receta (un algoritmo): calentamos el aceite en una sartén, rompemos los huevos dentro de ella, esperamos a que se frían y los alejamos de la estufa.
+For example, if we fry eggs, we follow some recipe \(an algorithm\): we warm up the oil in a pan, break the eggs inside it, wait for them to fry and move them away from the stove.
 
-Del mismo modo, en la programación, **los programas informáticos ejecutan algoritmos**: una secuencia de comandos, necesarios para completar una determinada tarea. Por ejemplo, para organizar una secuencia de números en orden ascendente, se necesita un algoritmo, por ejemplo, encontrar el número más pequeño e imprimirlo, luego encontrar el número más pequeño entre el resto de los números e imprimirlo, y esto se repite hasta que no queden más números.
+Similarly, in programming **the computer programs execute algorithms**: a sequence of commands, necessary for the completion of a certain task. For example, to arrange a sequence of numbers in an ascending order, an algorithm is needed, e.g. find the smallest number and print it, then find the smallest number among the rest of the numbers and print it, and this is repeated until there are no more numbers left.
 
-Para mayor comodidad al crear programas, para escribir código de programación, para la ejecución de programas y otras operaciones relacionadas con la programación, necesitamos un **entorno de desarrollo**, por ejemplo, Visual Studio.
+For convenience when creating programs, for writing programming code, for execution of programs and other operations related to programming, we need a **development environment**, for example Visual Studio.
 
-## Lenguajes de programación, compiladores, intérpretes y entornos de desarrollo <a href="#programming-languages-compilers-interpreters-and-development-environments" id="programming-languages-compilers-interpreters-and-development-environments"></a>
+## Programming Languages, Compilers, Interpreters and Development Environments
 
-Repasemos algunos conceptos de la programación informática: lenguajes de programación, compiladores, intérpretes y entornos de desarrollo (IDE).
+Let's review some concepts from computer programming: programming languages, compilers, interpreters and development environments \(IDEs\).
 
-### Lenguajes de programación <a href="#programming-languages" id="programming-languages"></a>
+### Programming Languages
 
-**Un lenguaje de programación** es un lenguaje artificial (sintaxis para expresión), destinado a **dar comandos** que queremos que la computadora lea, procese y ejecute. Usando lenguajes de programación, escribimos secuencias de comandos (**programas**), que **definen lo que la computadora debe hacer**. Ejemplos de lenguajes de programación son C #, Java, JavaScript, Python, C, C ++, PHP, Swift, Go y muchos otros. Estos lenguajes difieren en su filosofía, sintaxis, propósito, construcciones de programación y entorno de ejecución. La ejecución de programas informáticos se puede hacer con un **compilador** o con **un intérprete**.
+**A programming language** is an artificial language \(syntax for expression\), meant for **giving commands** that we want the computer to read, process and execute. Using programming languages, we write sequences of commands \(**programs**\), which **define what the computer should do**. Examples of programming languages are C#, Java, JavaScript, Python, C, C++, PHP, Swift, Go and many others. These languages differ in their philosophy, syntax, purpose, programming constructions and execution environment. The execution of computer programs can be done with **a compiler** or with **an interpreter**.
 
-### Compiladores <a href="#compilers" id="compilers"></a>
+### Compilers
 
-**El compilador** traduce el código del lenguaje de programación al código máquina, ya que para cada una de las construcciones (comandos) en el código elige un fragmento de **código máquina** adecuado y previamente preparado y, mientras tanto, **verifica el texto del programa en busca de errores**. Juntos, los fragmentos compilados comprenden el programa en un código máquina, como lo espera el microprocesador de la computadora. Después de que el programa ha sido compilado, se puede ejecutar directamente desde el microprocesador en cooperación con el sistema operativo. Con los lenguajes de programación basados en compiladores, **la compilación del programa** se realiza obligatoriamente antes de su ejecución, y se encuentran errores de sintaxis (comandos incorrectos) durante el tiempo de compilación. Lenguajes como C++, C#, Java, Swift y Go funcionan con un **compilador**. Este es un ejemplo de cómo puede verse la ejecución del compilador (el compilador basado en consola):`dotnet`
+**The compiler** translates the code from programming language to **machine code**, as for each of the constructions \(commands\) in the code it chooses a proper, previously prepared fragment of machine code and in the meantime it **checks the text of the program for errors**. Together, the compiled fragments comprise the program into a machine code, as the microprocessor of the computer expects it. After the program has been compiled, it can be executed directly from the microprocessor in cooperation with the operating system. With compiler-based programming languages **the compilation of the program** is done obligatory before its execution, and syntax errors \(wrong commands\) are found during compile time. Languages like C++, C\#, Java, Swift and Go work with a **compiler**. This an example how the compiler execution may look \(the console-based `dotnet` compiler\):
 
+![](/assets/chapter-1-images/compiler-example.png)
 
+### Interpreters
 
-![](../../../assets/chapter-1-images/01.Hello-csharp-04.png)
+Some programming languages do not use a compiler and are being **interpreted directly** by a specialized software called an "interpreter". **The interpreter** is "**a program for executing programs**", written in some programming language. It executes the commands in the program one after another, as it understands not only a single command and sequences of commands, but also other language constructions \(evaluations, iterations, functions, etc.\). Languages like Python, PHP and JavaScript work with an interpreter and are being executed without being compiled. Due to the absence of previous compilation, in interpreted languages **the errors are being found during the execution time**, after the program starts running, not previously. This is an example how an interpreter may look \(the `python` interpreter in the console\):
+
+![](/assets/chapter-1-images/interpreter-example.png)
+
+### Development Environments \(IDE\)
+
+**An environment for development** \(Integrated Development Environment – **IDE**\) is a combination of traditional tools for development of software applications. In the development environment we write code, compile and execute the programs. Development environments integrate in them **a text editor** for writing code, **a programming language**, **a compiler or an interpreter** and **a runtime environment** for executing programs, **a debugger** for tracking the program and seeking out errors, **tools for user interface design** and other tools and add-ons.
+
+**Environments for development** are convenient, because they integrate everything necessary for the development of the program, without the need to exit the environment. If we don't use an environment for development, we will have to write the code in a text editor, to compile it with a command on the console, to run it with another command on the console and to write more additional commands when needed, which is very time consuming. That is why most of the programmers use an IDE in their everyday work.
+
+For programming with **the C\# language** the most commonly used IDE is **Visual Studio**, which is developed and distributed freely by Microsoft and can be downloaded from: [https://www.visualstudio.com/downloads/](https://www.visualstudio.com/downloads/). Alternatives of Visual Studio are:
+  - **Rider** – https://www.jetbrains.com/rider
+  - **MonoDevelop / Xamarin Studio** – https://www.monodevelop.com
+  - **Visual Studio Code** - https://code.visualstudio.com
+  - **Eclipse aCute** – https://projects.eclipse.org/projects/tools.acute
+
+In the current book, we are going to use the development environment Visual Studio. This an example how a development IDE may look \(the Visual Studio IDE for C\#\):
+
+![](/assets/chapter-1-images/01.Hello-csharp-04.png)
+

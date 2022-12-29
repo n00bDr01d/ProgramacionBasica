@@ -1,4 +1,4 @@
-# Returning Multiple Values
+# Methods Returning Multiple Values
 
 There are cases in practice when we need a method to return more than one element as a result. For this to be possible **`ValueTuple`** has been integrated in Visual Studio and C# (C# 7 and later versions), as well as a literal of **`ValueTuple`** type. The **`ValueTuple`** type represents two values, which allow the temporary containing of **multiple values**. The values are contained in variables (fields – we will learn about them later) of the corresponding types. Although the type **`Tuple`** existed before C# 7, it didn't have good support in the older versions and it's ineffective. That's why in previous versions of C# the elements in one **`Tuple`** were shown as **`Item1`**, **`Item2`** etc. and the names of their variables (the variables in which they are contained) could not be changed. In C# 7 the type (**`ValueTuple`**) is maintained, which allows giving meaningful names to the elements in a **`ValueTuple`**.
 
@@ -12,7 +12,7 @@ var personInfo = (name: "Steve", age: 27, "Bulgaria");
 
 To make it easier when declaring, we use the keyword **`var`**, and in the brackets we list **the names of the values we want**, followed by **the values themselves**. Let's see what the variable **`personInfo`** contains in debug mode:
 
-![](../../../assets/chapter-10-images/15.Tuples-01.jpg)
+![](/assets/chapter-10-images/15.Tuples-01.jpg)
 
 We can see that it contains several **fields with names and values**, which were given when initializing the variable. We can see that the last variable is called **`Item3`**. This is so because when initializing we haven't named the variable, which contains the value **"Bulgaria"**. In this case the naming is **by default**, i.e. the variables are named **`Item1`**, **`Item2`**, **`Item3`**, etc.
 
@@ -46,4 +46,4 @@ int rem = division.reminder;
 
 To simplify the developers, Visual Studio implements **auto-complete for tuples**, returned from a method, just as it can be expected:
 
-![](../../../assets/chapter-10-images/15.Tuples-02.jpg)
+![](/assets/chapter-10-images/15.Tuples-02.jpg)

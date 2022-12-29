@@ -22,7 +22,7 @@ if (condition1)
 }
 ```
 
-### Complex Conditions with &&, ||, ! and ()
+### Complex Conditions with &&, \|\|, ! and \(\)
 
 ```csharp
 if ((x == left || x == right) && y >= top && y <= bottom)
@@ -52,6 +52,6 @@ switch (selector)
 
 Solve the exercises below to learn how to work with nested and more complex conditions:
 
-* [Problem: Cinema](volleyball/problem-cinema.md)
-* [Problem: Volleyball](volleyball/volleyball.md)
-* [Problem: \* Point in the Figure](point-in-the-figure/point-in-the-figure.md)
+* [Problem: Cinema](/Content/Chapter-4-1-complex-conditions/exercises-complex-conditions/volleyball/problem-cinema.md)
+* [Problem: Volleyball](/Content/Chapter-4-1-complex-conditions/exercises-complex-conditions/volleyball/volleyball.md)
+* [Problem: \* Point in the Figure](/Content/Chapter-4-1-complex-conditions/exercises-complex-conditions/point-in-the-figure/point-in-the-figure.md)

@@ -1,60 +1,85 @@
-# Ejemplo: crear una aplicación de consola "Hello C#"
+# Example: Creating a Console Application "Hello C\#"
 
-\
-Ejemplo: crear una aplicación de consola "Hello C#" <a href="#example-creating-a-console-application-hello-c" id="example-creating-a-console-application-hello-c"></a>
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Let's create our first **console program** in Visual Studio. We will start the Visual Studio IDE, will create a new console-based C\# project, will write a few lines of C\# code and will compile and run the program. Finally, we will submit our C\# code for evaluation in the automated Judge system.
 
-Vamos a crear nuestro primer **programa de consola** en Visual Studio. Iniciaremos el IDE de Visual Studio, crearemos un nuevo proyecto de C# basado en consola, escribiremos unas pocas líneas de código C# y compilaremos y ejecutaremos el programa. Finalmente, enviaremos nuestro código C # para su evaluación en el sistema automatizado de jueces.
+## Video: Console Application in Visual Studio
 
-### Vídeo: Aplicación de consola en Visual Studio <a href="#video-console-application-in-visual-studio" id="video-console-application-in-visual-studio"></a>
+Watch a video lesson about how to create a console app in Visual Studio: https://youtu.be/ecAXCjjk6Nw.
 
-### Aplicación de consola en Visual Studio: paso a paso <a href="#console-app-in-visual-studio-step-by-step" id="console-app-in-visual-studio-step-by-step"></a>
+## Console App in Visual Studio: Step by Step
 
-Ya tenemos Visual Studio y podemos iniciarlo. A continuación, creamos un nuevo proyecto de consola: \[**Archivo**] → \[**Nuevo**] → \[**Proyecto**] → \[**Visual C#**] → \[**Windows**] → \[**Aplicación de consola**].
+We already have Visual Studio and we can start it. Then, we create a new console project: \[**File**\] → \[**New**\] → \[**Project**\] → \[**Visual C\#**\] → \[**Windows**\] → \[**Console Application**\].
 
-![](https://csharp-book.softuni.org/assets/chapter-1-images/01.Hello-csharp-01.png)
+![](/assets/chapter-1-images/01.Hello-csharp-01.png)
 
-Establecemos un **nombre significativo** para nuestro programa, por ejemplo:![](https://csharp-book.softuni.org/assets/chapter-1-images/01.Hello-csharp-02.png) Visual Studio va a crear para nosotros **un programa C # vacío**, que tenemos que terminar de escribir (VS Solution con VS Project en él, con el archivo de código fuente de C # en él, con una clase de C # en él, con el método en él).`HelloCSharpMain()`
+We set **a meaningful name** to our program, for example `HelloCSharp`:![](/assets/chapter-1-images/01.Hello-csharp-02.png)Visual Studio is going to create for us **an empty C\# program**, which we have to finish writing \(VS Solution with VS Project in it, with C\# source file in it, with one C\# class in it, with `Main()` method in it\).
 
-### Escribir el código del programa <a href="#writing-the-program-code" id="writing-the-program-code"></a>
+## Writing the Program Code
 
-El código fuente del programa C# está escrito en la sección , entre el paréntesis de apertura y cierre. Este es el método principal (acción) que se ejecuta con el inicio de un programa de C#. Este método se puede escribir de dos maneras:`Main(string[] args){ }Main()`
+The source code of the C\# program is written in the section `Main(string[] args)`, between the opening and the closing parentheses `{ }`. This is the main method \(action\), that is being executed with the start of a C\# program. This `Main()` method can be written in two ways:
 
-* `static void Main(string[] args)` – con parámetros de la línea de comandos (no vamos a entrar en detalles)
-* `static void Main()` – sin parámetros desde la línea de comandos.
+* `static void Main(string[] args)` – with parameters from the command line \(we are not going into details\)
+* `static void Main()` – without parameters from the command line.
 
-Ambas formas son válidas, ya que **se recomienda la segunda**, porque es más corta y clara. Por defecto, sin embargo, al crear una aplicación de consola, Visual Studio utiliza la primera forma, que podemos editar manualmente si queremos, y eliminar la parte con los parámetros .`string[] args`
+Both ways are valid, as **the second one is recommended**, because it is shorter and clearer. By default, though, when creating a console application, Visual Studio uses the first way, which we can edit manually if we want to, and delete the part with the parameters `string[] args`.
 
-Pulse \[**Intro**] después **de los paréntesis de apertura** y **comience a escribir**. El código del programa está escrito **hacia adentro**, ya que esto es una parte de la configuración del texto para mayor comodidad durante una revisión y / o depuración.`{`
+Press \[**Enter**\] after **the opening parentheses** `{` and **start writing**. The code of the program is written **inwards**, as this is a part of shaping up the text for convenience during a review and/or debugging.
 
-![](https://csharp-book.softuni.org/assets/chapter-1-images/01.Hello-csharp-03.png)
+![](/assets/chapter-1-images/01.Hello-csharp-03.png)
 
-Escriba el siguiente comando:
+Write the following command:
 
 ```csharp
 Console.WriteLine("Hello C#");
 ```
 
-Así es como debería verse nuestro programa en Visual Studio:
+Here is how our program should look like in Visual Studio:
 
-![](https://csharp-book.softuni.org/assets/chapter-1-images/01.Hello-csharp-04.png)
+![](/assets/chapter-1-images/01.Hello-csharp-04.png)
 
-El comando en el lenguaje C# significa ejecutar la impresión () en la consola () e imprimir el mensaje de texto, que debemos rodear con comillas, para aclarar que se trata de un texto. Al final de cada comando en el lenguaje C# se está poniendo el símbolo y dice que el comando termina en ese lugar (no continúa en la siguiente línea).`Console.WriteLine("Hello C#")WriteLine(…)ConsoleHello C#;`
+The command `Console.WriteLine("Hello C#")` in the C\# language means to execute printing \(`WriteLine(…)`\) on the console \(`Console`\) and to print the text message `Hello C#`, which we should surround by quotation marks, in order to clarify that this is a text. In the end of each command in the C\# language the symbol `;` is being put and it says that the command ends in that place \(it doesn't continue on the next line\).
 
-Este comando es muy típico en la programación: decimos que se debe encontrar un **objeto** determinado (en este caso la consola) y se debe ejecutar alguna **acción** sobre él (en este caso se trata de imprimir algo que se da dentro de los corchetes). Más técnicamente explicado, llamamos al método de la clase y le damos como parámetro un texto literal .`WriteLine(…)Console"Hello C#"`
+This command is very typical in programming: we say a given **object** should be found \(in this case the console\) and some **action** should be executed upon it \(in this case it is printing something that is given inside the brackets\). More technically explained, we call the method `WriteLine(…)` from the class `Console` and give as a parameter to it a text literal `"Hello C#"`.
 
-### Inicio del programa <a href="#starting-the-program" id="starting-the-program"></a>
+## Starting the Program
 
-Para iniciar el programa, pulse \[**Ctrl + F5**]. Si no hay ningún error, se ejecutará el programa. El resultado se escribirá en la consola (en la ventana negra):
+To start the program, press \[**Ctrl + F5**\]. If there aren't any errors, the program will be executed. The result will be written on the console \(in the black window\):
 
-![](https://csharp-book.softuni.org/assets/chapter-1-images/01.Hello-csharp-05.png)
+![](/assets/chapter-1-images/01.Hello-csharp-05.png)
 
-Observe que lo iniciamos con **\[Ctrl+F5**], y no solo con **\[F5] o con** el botón de inicio en Visual Studio. Si usamos **\[F5]**, el programa se ejecutará en breve y justo después la ventana negra desaparecerá, y no vamos a ver el resultado.
+Notice that we start it with **\[Ctrl+F5\]**, and not only **\[F5\]** or with the start button in Visual Studio. If we use **\[F5\]**, the program will run shortly and right afterwards the black window will disappear, and we are not going to see the result.
 
-En realidad, la salida del programa es el siguiente mensaje de texto:
+Actually, the output from the program is the following text message:
 
 ```csharp
 Hello C#
 ```
 
-El mensaje "**Presione cualquier tecla para continuar..."** se muestra adicionalmente en la última línea de la consola después de que finalice el programa, para empujarnos a ver el resultado de la ejecución y presionar una tecla para cerrar la consola.
+The message "**Press any key to continue . . .**" is displayed additionally on the last line on the console after the program ends, in order to push us to see the result from the execution and to press a key to close the console.
+
+## Testing the Program in the Judge System
+
+Testing of the problems in this book is automated and is done through the Internet, using the **Judge System**: [https://judge.softuni.org](https://judge.softuni.org) website. The evaluation of the tasks is done immediately by the system. Each task goes through a sequence of tests, as every successfully passed test gives the points assigned for it. The tests that are applied to the tasks are hidden.
+
+We can test the above program here: [https://judge.softuni.org/Contests/Practice/Index/503\#0](https://judge.softuni.org/Contests/Practice/Index/503#0). We place the source code from the program in the black field and we choose **C\# code**, the way it is shown:
+
+![](/assets/chapter-1-images/01.Hello-csharp-06.png)
+
+We send our solution for evaluation using the \[**Send**\] button. The system gives a result back in a few seconds in the table with sent solutions. When necessary, we can press the button for renewing the results **\[refresh\]** in the upper right side of the table with sent solutions:
+
+![](/assets/chapter-1-images/01.Hello-csharp-07.png)
+
+In the table with the sent solutions the judge system is going to show one of the following **possible results**:
+
+* **Points count** \(between 0 and 100\), when the submitted code is compiled successfully \(there are no syntax errors\) and can be tested.
+  * When the **solution is correct** all of the tests are marked in green and we get **100 points**.
+  * When the **solution is incorrect** some of the tests are marked in red and we get incomplete or 0 points.
+* When the program is incorrect, we will get **an error message** upon compiling.
+
+### How to Register in SoftUni Judge?
+
+If you don't have a registration in the Judge system, create one. It takes only a minute – a standard registration in an Internet site.
+
+## Testing the Programs That Play Notes
+
+Now, after **you know how to run programs**, you can test your example programs that play musical notes. Have some fun, try these programs out. Try to change them and play with them. Change the command `Console.WriteLine("Hello C#");` with the command `Console.Beep(432, 500);` and start the program. Check if the sound of your computer is on and whether it's turned up. If you work in an online environment, you will not hear a sound, because the program is not executed on your computer, but elsewhere.

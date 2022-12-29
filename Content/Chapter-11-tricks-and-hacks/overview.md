@@ -1,4 +1,4 @@
-# 11. Tricks and Hacks
+# Chapter 11. Tricks and Hacks
 
 In the current chapter we are going to see some tricks, hacks and techniques, which will make our work with C# easier in the Visual Studio IDE. In particular we will see:
 

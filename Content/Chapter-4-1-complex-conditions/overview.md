@@ -1,6 +1,6 @@
-# 4.1. More Complex Conditions
+# Chapter 4.1. More Complex Conditions
 
-In the **current** chapter, we are going to examine the **nested conditional statements** in the **C#** language, by which our program can contain **conditions** that contain other **nested conditional statements**. We call them **"nested"**, because **we put an `if` condition** into **another `if` condition**. We are going to examine the **more complex logical conditions** through proper examples.
+In the **current** chapter, we are going to examine the **nested conditional statements** in the **C\#** language, by which our program can contain **conditions** that contain other **nested conditional statements**. We call them **"nested"**, because **we put an **`if`** condition** into **another **`if`** condition**. We are going to examine the **more complex logical conditions** through proper examples.
 
 ## Video: Chapter Overview
 
@@ -28,11 +28,12 @@ else
 
 Run the above code example: [https://repl.it/@nakov/nested-if-else-conditions-csharp](https://repl.it/@nakov/nested-if-else-conditions-csharp).
 
-The above code performs a **series of checks** using nested `if-else` conditional statements and logical operators like `&&` (logical **AND**) to check the input data for the following 4 cases:
+The above code performs a **series of checks** using nested `if-else` conditional statements and logical operators like `&&` \(logical **AND**\) to check the input data for the following 4 cases:
 
-* Size out of range (one of the sides is negative or bigger than 100).
-* Large size (area >= 5000).
-* Middle size (1000 < area < 5000)
-* Small size (area <= 1000)
+* Size out of range \(one of the sides is negative or bigger than 100\).
+* Large size \(area &gt;= 5000\).
+* Middle size \(1000 &lt; area &lt; 5000\)
+* Small size \(area &lt;= 1000\)
 
-Let's explain in greater detail how to use **complex and nested `if-else` conditions** in C#.
+Let's explain in greater detail how to use **complex and nested **`if-else`** conditions** in C\#.
+

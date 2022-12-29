@@ -10,19 +10,19 @@ We shall check if a particular number **n** is even, and if it is, we will print
 
 Here is an idea how we can implement the above described logic:
 
-* We create a variable **`n`** to which we assign an initial value of **0**.
-* We create an infinite **`while`** loop and as condition we will set **`true`**.
-* In **the body of the loop**:
-  * We take an integer value from the console input and assign it to **`n`**.
-  * If **the number is even**, we exit the loop by **`break`**.
-  * **Otherwise**, we display a message stating that **the number is not even**. The iterations continue until an even number is entered.
-* Finally, after the loop, print the even number on the screen.
+   * We create a variable **`n`** to which we assign an initial value of **0**.
+   * We create an infinite **`while`** loop and as condition we will set **`true`**.
+   * In **the body of the loop**:
+      * We take an integer value from the console input and assign it to **`n`**.
+      * If **the number is even**, we exit the loop by **`break`**.
+      * **Otherwise**, we display a message stating that **the number is not even**. The iterations continue until an even number is entered.
+   * Finally, after the loop, print the even number on the screen.
 
 ## Implementation
 
 Here is an example implementation of the idea:
 
-![](../../../../assets/chapter-7-images/00.Break-in-infinite-loop-01.png)
+![](/assets/chapter-7-images/00.Break-in-infinite-loop-01.png)
 
 Note: Although the code above is correct, it will not work if the user enters **text** instead of numbers, such as "**Invalid number**". Then parsing the text to a number will break and the program will display **an error message (exception)**. How to deal with this problem and how to capture and process exceptions using **the `try-catch` construction** will be learned later.
 

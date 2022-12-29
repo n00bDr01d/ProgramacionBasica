@@ -4,13 +4,13 @@ Write a program that **inputs two words** and checks if they are the same. Do no
 
 ## Sample Input and Output
 
-| Input                     | Output |
-| ------------------------- | ------ |
-| <p>Hello<br>Hello</p>     | yes    |
-| <p>SoftUni<br>softuni</p> | yes    |
-| <p>Soft<br>Uni</p>        | no     |
-| <p>banana<br>lemon</p>    | no     |
-| <p>HeLlO<br>hELLo</p>     | yes    |
+| Input | Output |
+| --- | ---- |
+| Hello<br>Hello | yes |
+| SoftUni<br>softuni | yes |
+| Soft<br>Uni | no |
+| banana<br>lemon | no |
+| HeLlO<br>hELLo | yes |
 
 ## Hints and Guidelines
 

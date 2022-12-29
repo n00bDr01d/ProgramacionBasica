@@ -28,7 +28,7 @@ Watch the video lesson about the if-else checks: [https://youtu.be/PUvf7gtKSz4](
 
 ## Example: Digits in English
 
-Print the digits in the range of 1 to 9 (digits are read from the console) in English. We can read the digit and then, through a **sequence of conditions** we print the relevant English word:
+Print the digits in the range of 1 to 9 \(digits are read from the console\) in English. We can read the digit and then, through a **sequence of conditions** we print the relevant English word:
 
 ```csharp
 int num = int.Parse(Console.ReadLine());
@@ -59,4 +59,5 @@ The program logic from the above example **sequentially compares** the input num
 
 ### Testing in the Judge System
 
-Test your solution here: [https://judge.softuni.org/Contests/Practice/Index/506#4](https://judge.softuni.org/Contests/Practice/Index/506#4).
+Test your solution here: [https://judge.softuni.org/Contests/Practice/Index/506\#4](https://judge.softuni.org/Contests/Practice/Index/506#4).
+

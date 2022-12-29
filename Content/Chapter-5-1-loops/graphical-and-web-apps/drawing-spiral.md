@@ -1,8 +1,8 @@
-# Problem: \* Draw a Spiral with the Turtle
+# Problem: * Draw a Spiral with the Turtle
 
-Add a \[**Spiral**] button that draws a spiral with 20 beams, as on the figure below:
+Add a [**Spiral**] button that draws a spiral with 20 beams, as on the figure below:
 
-![](../../../assets/chapter-5-images/13.Turtle-graphics-15.png)
+![](/assets/chapter-5-images/13.Turtle-graphics-15.png)
 
 **Hint:**
 

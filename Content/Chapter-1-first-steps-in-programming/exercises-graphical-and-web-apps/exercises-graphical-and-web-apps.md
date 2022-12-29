@@ -1,18 +1,18 @@
-# Lab: Graphical and Web Apps
+# Laboratorio: Aplicaciones gráficas y web
 
-Now we are about to build one simple **web application** and one simple **graphical application**, in order to take a look at what we will be able to create when we progress with programming and software development. We are not going to look through the details about the used techniques and constructions fundamentally. Rather than that, we are just going to take a look at the arrangement and functionality of our creation. After we progress with our knowledge, we will be able to do bigger and more complex software applications and systems. We hope that the examples given below will **straighten your interest**, rather than make you give up.
+Ahora estamos a punto de construir una aplicación **web** simple y una **aplicación gráfica** simple, para echar un vistazo a lo que seremos capaces de crear cuando avancemos con la programación y el desarrollo de software. No vamos a mirar a través de los detalles sobre las técnicas y construcciones utilizadas fundamentalmente. En lugar de eso, solo vamos a echar un vistazo a la disposición y funcionalidad de nuestra creación. Después de progresar con nuestro conocimiento, podremos hacer aplicaciones y sistemas de software más grandes y complejos. Esperamos que los ejemplos que se dan a continuación **enderezen su interés**, en lugar de hacer que se rinda.
 
-## Console, Graphical and Web Applications
+### Aplicaciones de consola, gráficas y web <a href="#console-graphical-and-web-applications" id="console-graphical-and-web-applications"></a>
 
-With **console applications**, as you can figure out yourselves, **all operations** for reading input and printing output are **done through the console**. **The input data is entered** in the console, which is then read by the application, also in it, and the **output data is printed** on the console after or during the runtime of the program.
+Con las **aplicaciones de** consola, como pueden averiguar ustedes mismos, **todas las operaciones** para leer la entrada e imprimir la salida se **realizan a través de la consola**. Los datos de **entrada se ingresan** en la consola, que luego es leída por la aplicación, también en ella, y los **datos de salida se imprimen** en la consola después o durante el tiempo de ejecución del programa.
 
-While a console application **uses the text console**, web applications **use web-based user interface**. To **execute them**, two things are needed – **a web server** and **a web browser**, as **the browser** plays the main role in **the visualization of the data and the interaction with the user**. Web applications are much more pleasant for the user, they visually look better, and a mouse and touch screen can be used (for tablets and smartphones), but programming stands behind all of that. And this is why **we have to learn to program** and we have already made our first very little steps towards that.
+Mientras que una aplicación de consola **utiliza la consola de texto, las** aplicaciones web utilizan la **interfaz de usuario basada en web**. Para **ejecutarlos**, se necesitan dos cosas: un **servidor** web y **un navegador web**, ya que el **navegador** juega el papel principal en la **visualización de los datos y la interacción con el usuario**. Las aplicaciones web son mucho más agradables para el usuario, se ven visualmente mejor, y se puede usar un mouse y una pantalla táctil (para tabletas y teléfonos inteligentes), pero la programación está detrás de todo eso. Y es por eso **que tenemos que aprender a programar** y ya hemos dado nuestros primeros pasos muy pequeños hacia eso.
 
-Graphical (GUI) applications have **a visual user interface**, directly into your computer or mobile device, without a web browser. Graphical applications (also known as desktop applications) **contain one or more graphical windows**, in which certain **controllers** are located (text fields, buttons, pictures, tables and others), **serving for dialog** with the user in a more intuitive way. Similar to them are the mobile applications in your telephone or your tablet: we use forms, text fields, buttons and other controls and we control them by programming code. This is why we are learning how to write code now: **the code is everywhere in software development**.
+Las aplicaciones gráficas (GUI) tienen **una interfaz de usuario visual**, directamente en su computadora o dispositivo móvil, sin un navegador web. Las aplicaciones gráficas (también conocidas como aplicaciones de escritorio) **contienen una o más ventanas gráficas**, en **las** que se encuentran ciertos controladores (campos de texto, botones, imágenes, tablas y otros), **que sirven para el diálogo** con el usuario de una manera más intuitiva. Similares a ellas son las aplicaciones móviles en su teléfono o su tableta: usamos formularios, campos de texto, botones y otros controles y los controlamos mediante código de programación. Es por eso que estamos aprendiendo a escribir código ahora: el **código está en todas partes en el desarrollo de software**.
 
-## Exercises: GUI and Web Applications
+### Ejercicios: GUI y Aplicaciones Web <a href="#exercises-gui-and-web-applications" id="exercises-gui-and-web-applications"></a>
 
-In the next exercises we will create a GUI (Desktop) and a Web application:
+En los siguientes ejercicios crearemos una GUI (Escritorio) y una aplicación Web:
 
-* [Problem: Graphical Application "Summator" (Calculator)](sumator-graphical/sumator-graphical.md)
-* [Problem: Web Application "Summator" (Calculator)](sumator-web/sumator-web.md)
+* Problema: Aplicación gráfica "Summator" (calculadora)
+* Problema: Aplicación Web "Summator" (Calculadora)

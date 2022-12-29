@@ -1,6 +1,6 @@
 # More Complex Conditions
 
-Let's take a look at how we can create more **complex logical conditions** in programming. We can use the logical "**AND**" (`&&`), logical "**OR**" (`||`), logical **negation** (`!`) and **brackets** (`()`).
+Let's take a look at how we can create more **complex logical conditions** in programming. We can use the logical "**AND**" \(`&&`\), logical "**OR**" \(`||`\), logical **negation** \(`!`\) and **brackets** \(`()`\).
 
 ## Logical "AND", "OR" and "NOT"
 
@@ -18,11 +18,11 @@ else if (!(speed > 30 || animal == "turtle"))
     Console.WriteLine("Slow move")
 ```
 
-We shall explain the logical \*\*AND \*\*(`||`), the logical \*\*OR \*\*(`||`), and the logical \*\*NOT \*\*(`!`) in the next few sections, along with examples and exercises:
+We shall explain the logical **AND **\(`||`\), the logical **OR **\(`||`\), and the logical **NOT **\(`!`\) in the next few sections, along with examples and exercises:
 
-* [Logical "AND"](complex-conditions/logical-and.md)
-* [Logical "OR"](complex-conditions/logical-or.md)
-* [Logical "NOT"](complex-conditions/logical-not.md)
+* [Logical "AND"](/Content/Chapter-4-1-complex-conditions/complex-conditions/complex-conditions/logical-and.md)
+* [Logical "OR"](/Content/Chapter-4-1-complex-conditions/complex-conditions/complex-conditions/logical-or.md)
+* [Logical "NOT"](/Content/Chapter-4-1-complex-conditions/complex-conditions/complex-conditions/logical-not.md)
 
 ## The Parenthesis `()` Operator
 

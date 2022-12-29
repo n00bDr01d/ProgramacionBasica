@@ -2,20 +2,20 @@
 
 There are **2 \* n numbers**. The first and the second number form a **pair**, the third and the fourth number also, and so on. Each pair has a **value** – the sum of its numbers. Write a program that checks **if all pairs have equal value**.
 
-In case the value is the same, print **"Yes, value=…" + the value**, otherwise, print the **maximum difference** between two neighboring pairs in the following format: **"No, maxdiff=…" + the maximum difference**.
+In case the value is the same, print **"Yes, value=…" + the value**, otherwise, print the **maximum difference** between two neighboring pairs in the following format: **"No, maxdiff=…" + the maximum difference**. 
 
-The input consists of the number **n**, followed by **2\*n integers**, all of them one per line.
+The input consists of the number **n**, followed by **2*n integers**, all of them one per line.
 
 ## Sample Input and Output
 
-| Input                                            | Output        |                                    Comments                                   |
-| ------------------------------------------------ | ------------- | :---------------------------------------------------------------------------: |
-| <p>3<br>1<br>2<br>0<br>3<br>4<br>-1</p>          | Yes, value=3  |                   <p>values = {3, 3, 3}<br>equal values</p>                   |
-| <p>2<br>1<br>2<br>2<br>2</p>                     | No, maxdiff=1 |       <p>values = {3, 4}<br>differences = {1}<br>max difference = 1</p>       |
-| <p>4<br>1<br>1<br>3<br>1<br>2<br>2<br>0<br>0</p> | No, maxdiff=4 | <p>values = {2, 4, 4, 0}<br>differences = {2, 0, 4}<br>max difference = 4</p> |
-| <p>1<br>5<br>5</p>                               | Yes, value=10 |               <p>values = {10}<br>one value<br>equal values</p>               |
-| <p>2<br>-1<br>0<br>0<br>-1</p>                   | Yes, value=-1 |                    <p>values = {-1, -1}<br>equal values</p>                   |
-| <p>2<br>-1<br>2<br>0<br>-1</p>                   | No, maxdiff=2 |       <p>values = {1, -1}<br>differences = {2}<br>max difference = 2</p>      |
+| Input | Output | Comments |
+| --- | --- | :---: | 
+| 3<br>1<br>2<br>0<br>3<br>4<br>-1| Yes, value=3 | values = {3, 3, 3}<br>equal values | 
+| 2<br>1<br>2<br>2<br>2 | No, maxdiff=1 | values = {3, 4}<br>differences = {1}<br>max difference = 1 |
+| 4<br>1<br>1<br>3<br>1<br>2<br>2<br>0<br>0 | No, maxdiff=4 | values = {2, 4, 4, 0}<br>differences = {2, 0, 4}<br>max difference = 4 |
+| 1<br>5<br>5 | Yes, value=10 | values = {10}<br>one value<br>equal values |
+| 2<br>-1<br>0<br>0<br>-1 | Yes, value=-1 | values = {-1, -1}<br>equal values | 
+| 2<br>-1<br>2<br>0<br>-1 | No, maxdiff=2 | values = {1, -1}<br>differences = {2}<br>max difference = 2 |
 
 ## Hints and Guidelines
 

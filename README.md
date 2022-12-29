@@ -1,26 +1,26 @@
 # Bienenida
 
-El libro de programación de "**Fundamentos de programación con C #**" introduce a los alumnos a escribir **código de programación** a nivel principiante (variables y datos, declaraciones condicionales, bucles y métodos) utilizando el lenguaje **C #**. Combina contenido de aprendizaje de estilo **tutorial** con lecciones en **ejemplos de código** y muchos ejercicios prácticos de **codificación**.
+El libro **gratuito** "Fundamentos de programación con C #" introduce a los lectores a escribir **código de programación** a nivel principiante (variables y datos, declaraciones condicionales, bucles y métodos) utilizando el lenguaje **C #**. Combina contenido de aprendizaje de estilo **tutorial** con lecciones en **ejemplos de código** y muchos ejercicios prácticos de **codificación**.
 
-* [Prefacio](broken-reference)
-* 1\. Primeros pasos en la programación
-* 2.1. Cálculos sencillos
-* 2.2. Cálculos simples – Problemas de examen
-* 3.1. Condiciones sencillas
-* 3.2. Condiciones simples – Problemas de examen
-* 4.1. Condiciones más complejas
-* 4.2. Condiciones más complejas – problemas de examen
-* 5.1. Repeticiones (bucles)
-* 5.2. Bucles – Problemas de examen
-* 6.1. Bucles anidados
-* 6.2. Bucles anidados – Problemas de examen
-* 7.1. Bucles más complejos
-* 7.2. Bucles más complejos – Problemas de examen
-* 8.1. Preparación de exámenes prácticos – Parte I
-* 8.2. Preparación del examen práctico – Parte II
-* 9.1. Problemas para los campeones – Parte I
-* 9.2. Problemas para los campeones – Parte II
-* 10\. Métodos
-* 11\. Trucos y hacks
-* Conclusión
+* [Preface](Content/Preface/overview.md)
+* [1. First Steps in Programming](Content/Chapter-1-first-steps-in-programming/overview.md)
+* [2.1. Simple Calculations](Content/Chapter-2-1-simple-calculations/overview.md)
+* [2.2. Simple Calculations – Exam Problems](Content/Chapter-2-2-simple-calculations-exam-problems/overview.md)
+* [3.1. Simple Conditions](Content/Chapter-3-1-simple-conditions/overview.md)
+* [3.2. Simple Conditions – Exam Problems](Content/Chapter-3-2-simple-conditions-exam-problems/overview.md)
+* [4.1. More Complex Conditions](Content/Chapter-4-1-complex-conditions/overview.md)
+* [4.2. More Complex Conditions – Exam Problems](Content/Chapter-4-2-complex-conditions-exam-problems/overview.md)
+* [5.1. Repetitions (Loops)](Content/Chapter-5-1-loops/overview.md)
+* [5.2. Loops – Exam Problems](Content/Chapter-5-2-loops-exam-problems/overview.md)
+* [6.1. Nested Loops](Content/Chapter-6-1-nested-loops/overview.md)
+* [6.2. Nested Loops – Exam Problems](Content/Chapter-6-2-nested-loops-exam-problems/overview.md)
+* [7.1. More Complex Loops](Content/Chapter-7-1-complex-loops/overview.md)
+* [7.2. More Complex Loops – Exam Problems](Content/Chapter-7-2-complex-loops-exam-problems/overview.md)
+* [8.1. Practical Exam Preparations – Part I](Content/Chapter-8-1-exam-preparation/overview.md)
+* [8.2. Practical Exam Preparations – Part II](Content/Chapter-8-2-exam-preparation-part-2/overview.md)
+* [9.1. Problems for Champions – Part I](Content/Chapter-9-1-problems-for-champions/overview.md)
+* [9.2. Problems for Champions – Part II](Content/Chapter-9-2-problems-for-champions-part-2/overview.md)
+* [10. Methods](Content/Chapter-10-methods/overview.md)
+* [11. Tricks and Hacks](Content/Chapter-11-tricks-and-hacks/overview.md)
+* [Conclusion](Content/Conclusion/overview.md)
 

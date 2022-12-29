@@ -32,8 +32,8 @@ for (var r = 1; r <= 5; r++)
 
 We will work on the following set of practical problems:
 
-* [Problem: Rhombus of Stars](../nested-loops/example-rhombus-of-stars.md)
-* [Problem: Christmas Tree](../nested-loops/example-christmas-tree.md)
-* [Problem: Sunglasses](sunglasses/sunglasses.md)
-* [Problem: House](house/house.md)
-* [Problem: Diamond](diamond/diamond.md)
+* [Problem: Rhombus of Stars](/Content/Chapter-6-1-nested-loops/nested-loops/example-rhombus-of-stars.md)
+* [Problem: Christmas Tree](/Content/Chapter-6-1-nested-loops/nested-loops/example-christmas-tree.md)
+* [Problem: Sunglasses](/Content/Chapter-6-1-nested-loops/drawing-more-complex-figures/sunglasses/sunglasses.md)
+* [Problem: House](/Content/Chapter-6-1-nested-loops/drawing-more-complex-figures/house/house.md)
+* [Problem: Diamond](/Content/Chapter-6-1-nested-loops/drawing-more-complex-figures/diamond/diamond.md)

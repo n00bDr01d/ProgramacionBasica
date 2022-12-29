@@ -1,80 +1,80 @@
-# Lab: Graphical Application "Summator"
+# Laboratorio: Aplicación gráfica "Summator" (Calculadora)
 
-Write a **graphical (GUI) application**, which **calculates the sum of two numbers**:
+Escriba una **aplicación gráfica (GUI),** que **calcula la suma de dos números**:
 
-![](../../../../assets/chapter-1-images/07.Numbers-sum-01.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-01.png)
 
-By entering two numbers in the first two fields and pressing the button \[**Calculate**] their sum is being calculated and the result is shown in the third text field. For our application we will use **the Windows Forms technology**, which allows the creation of **graphical applications for Windows**, in the development environment **Visual Studio** and with programming **language** **C#**.
+Al introducir dos números en los dos primeros campos y pulsar el botón \[**Calcular**] se está calculando su suma y el resultado se muestra en el tercer campo de texto. Para nuestra aplicación utilizaremos la **tecnología Windows Forms**, que permite la creación de **aplicaciones gráficas para Windows**, en el entorno de desarrollo **Visual Studio** y con **lenguaje** de programación **C#**.
 
-## Creating a New C# Project
+### Crear un nuevo proyecto de C# <a href="#creating-a-new-c-project" id="creating-a-new-c-project"></a>
 
-In Visual Studio we create **a new C# project of type “Windows Forms Application”**:
+En Visual Studio creamos **un nuevo proyecto de C# de tipo "Windows Forms Application"**:
 
-![](../../../../assets/chapter-1-images/07.Numbers-sum-02.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-02.png)
 
-When creating a Windows Forms application **an editor for user interface** will be shown, in which **different visual elements** could be put (for example text boxes and buttons):
+Al crear una aplicación de Windows Forms se mostrará **un editor para la interfaz de usuario**, en el que se pueden colocar **diferentes elementos visuales** (por ejemplo, cuadros de texto y botones):
 
-![](../../../../assets/chapter-1-images/07.Numbers-sum-03.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-03.png)
 
-## Adding Text Fields and a Button
+### Agregar campos de texto y un botón <a href="#adding-text-fields-and-a-button" id="adding-text-fields-and-a-button"></a>
 
-We download from the bar on the left (Toolbox) **three text boxes** (`TextBox`), **two labels** (`Label`) and **a button** (`Button`), afterwards we arrange them in the window of the application. Then we **change the names of each of the controls**. This is done from **the window “Properties”** on the right, by changing the field (`Name`):
+Descargamos desde la barra de la izquierda (Caja de herramientas) **tres cuadros de texto** (), **dos etiquetas** () y **un botón** (), luego los organizamos en la ventana de la aplicación. Luego **cambiamos los nombres de cada uno de los controles**. Esto se hace desde la **ventana "Propiedades" a la** derecha, cambiando el campo ():`TextBoxLabelButtonName`
 
-![](../../../../assets/chapter-1-images/07.Numbers-sum-04.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-04.png)
 
-* Names of the text boxes: `textBox1`, `textBox2`, `textBoxSum`
-* Name of the button: `buttonCalculate`
-* Name of the form: `FormCalculate`
+* Nombres de los cuadros de texto: , , `textBox1textBox2textBoxSum`
+* Nombre del botón: `buttonCalculate`
+* Nombre del formulario: `FormCalculate`
 
-**We change the headings** (the `Text` property) of the controls:
+**Cambiamos los encabezados** (la propiedad) de los controles:`Text`
 
 * `buttonCalculate` -> `Calculate`
 * `label1` -> `+`
 * `label2` -> `=`
 * `Form1` -> `Summator`
 
-![](../../../../assets/chapter-1-images/07.Numbers-sum-05.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-05.png)
 
-## Resizing the Controls and Starting the Application
+### Cambiar el tamaño de los controles e iniciar la aplicación <a href="#resizing-the-controls-and-starting-the-application" id="resizing-the-controls-and-starting-the-application"></a>
 
-**We resize and arrange the controls**, to make them look better:
+**Redimensionamos y organizamos los controles**, para que se vean mejor:
 
-![](../../../../assets/chapter-1-images/07.Numbers-sum-06.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-06.png)
 
-We try to run the application \[**Ctrl+F5**]. It should start, but it should **not function completely**, because we haven't written what happens when we click the button yet.
+Intentamos ejecutar la aplicación \[**Ctrl+F5**]. Debería comenzar, pero no debería **funcionar completamente**, porque aún no hemos escrito lo que sucede cuando hacemos clic en el botón.
 
-![](../../../../assets/chapter-1-images/07.Numbers-sum-07.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-07.png)
 
-## Writing the Program Code
+### Escribir el código del programa <a href="#writing-the-program-code" id="writing-the-program-code"></a>
 
-Now it is time to write the code, which **sums the numbers** from the first two fields and **shows the result** in the third field. For this purpose, we double click **the \[Calculate] button**. The place, in which we write what is going to happen by clicking the button will be shown:
+Ahora es el momento de escribir el código, que **suma los números de los** dos primeros campos y **muestra el resultado en el** tercer campo. Para ello, hacemos doble clic en **el botón \[Calcular].** Se mostrará el lugar, en el que escribimos lo que va a suceder haciendo clic en el botón:
 
-![](../../../../assets/chapter-1-images/07.Numbers-sum-08.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-08.png)
 
-We write the following C# code between the opening and the closing brackets `{ }`, where the cursor is:
+Escribimos el siguiente código C# entre los corchetes de apertura y cierre, donde está el cursor:`{ }`
 
-![](../../../../assets/chapter-1-images/07.Numbers-sum-09.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-09.png)
 
-This code **takes the first number** from the field `textBox1` and keeps it \*\*in the variable \*\*`num1`, keeps **the second number** from the field `textBox2` in \*\*the variable \*\*`num2`, afterwards it \*\*sums **`num1`** and **`num2`** in the variable \*\*`sum` and in the end \*\*takes the text value of the variable \*\*`sum` in the field `textBoxSum`.
+Este código toma el **primer** número del campo y lo mantiene en la variable, mantiene el **segundo número** del campo en la variable, después **suma** y en la variable **y** al final **toma el valor de texto de la variable en** el campo. **** `textBox1num1textBox2num2num1num2sumsumtextBoxSum`
 
-## Testing the Application
+### Prueba de la aplicación <a href="#testing-the-application" id="testing-the-application"></a>
 
-We start the program again with \[**Ctrl+F5**] and we check whether it works correctly. We try to calculate **4 + 5**, and afterwards **-12.5 + 1.3**:
+Iniciamos el programa de nuevo con \[**Ctrl+F5**] y comprobamos si funciona correctamente. Intentamos calcular 4 + 5, y después **-12.5 + 1.3**:
 
-![](../../../../assets/chapter-1-images/07.Numbers-sum-10.png) ![](../../../../assets/chapter-1-images/07.Numbers-sum-11.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-10.png) ![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-11.png)
 
-We try with **invalid numbers**, for example: “**aaa**” and “**bbb**”. It seems there is a problem:
+Intentamos con **números no válidos**, por ejemplo: "**aaa"** y "**bbb**". Parece que hay un problema:
 
-![](../../../../assets/chapter-1-images/07.Numbers-sum-12.png) ![](../../../../assets/chapter-1-images/07.Numbers-sum-13.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-12.png) ![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-13.png)
 
-## Fixing the Bug and Retesting the Application
+### Corregir el error y volver a probar la aplicación <a href="#fixing-the-bug-and-retesting-the-application" id="fixing-the-bug-and-retesting-the-application"></a>
 
-The problem comes from **the conversion of the text field into a number**. If the value inside the field **is not a number, the program throws an exception**. We can rewrite the code in order to fix this problem:
+El problema proviene **de la conversión del campo de texto en un número**. Si el valor dentro del campo **no es un número, el programa produce una excepción**. Podemos reescribir el código para solucionar este problema:
 
-![](../../../../assets/chapter-1-images/07.Numbers-sum-14.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-14.png)
 
-The code above **catches the errors when working with numbers** (it catches exceptions) and in case of an error \*\*it gives a value \*\*`error` in the field with the result. We start the program again with \[**Ctrl+F5**] and try if it works. This time \*\*by entering a wrong number the result is \*\*`error` and the program doesn't break:
+El código anterior **detecta los errores al trabajar con números** (captura excepciones) y en caso de error **da un valor** en el campo con el resultado. Iniciamos el programa de nuevo con \[**Ctrl+F5**] y probamos si funciona. Esta vez **al ingresar un número incorrecto, el resultado es y el** programa no se rompe:`errorerror`
 
-![](../../../../assets/chapter-1-images/07.Numbers-sum-15.png) ![](../../../../assets/chapter-1-images/07.Numbers-sum-16.png)
+![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-15.png) ![](https://csharp-book.softuni.org/assets/chapter-1-images/07.Numbers-sum-16.png)
 
-Is it complicated? It is normal to seem complex, of course. We are just beginning to get into programming. The example above requires much more knowledge and skills, which we are going to develop through this book and even afterwards. Just allow yourself to have some fun with desktop programming. If something doesn't work, feel free to ask for help in the SoftUni official **discussion forum** (https://www.reddit.com/r/softuni) or in the SoftUni official **Facebook page** (https://fb.com/softuni.org). Or move on bravely forward to the next example or to the next chapter of the book. A time will come when it is going to be easy for you, but you really have to put **an effort and be persistent**. Learning programming is a slow process with lots and lots of practice.
+¿Es complicado? Es normal parecer complejo, por supuesto. Estamos empezando a entrar en la programación. El ejemplo anterior requiere mucho más conocimiento y habilidades, que vamos a desarrollar a través de este libro e incluso después. Solo permítete divertirte con la programación de escritorio

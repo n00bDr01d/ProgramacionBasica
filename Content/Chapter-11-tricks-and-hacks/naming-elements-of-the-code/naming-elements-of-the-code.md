@@ -18,8 +18,9 @@ In programming variables keep data, and for the code to be more understandable, 
 * You should be careful about uppercase and lowercase letters, because C# distinguishes them. For example, **`age`** and **`Age`** are different variables.
 * The names of the variables cannot coincide with keywords in the C# language, for example **`int`** is an invalid name for a variable.
 
-| ![](../../../assets/alert-icon.png) | Although using the symbol `_` in the names of variables is allowed, in C# it is not recommended and is considered a bad style of naming. |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
+<td>Although using the symbol <code><b>_</b></code> in the names of variables is allowed, in C# it is not recommended and is considered a bad style of naming.</td>
+</tr></table>
 
 ## Naming – Examples
 

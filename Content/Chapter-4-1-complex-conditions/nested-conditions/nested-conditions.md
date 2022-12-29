@@ -1,4 +1,4 @@
-# Nested Conditions
+# Nested If-Else Conditions
 
 Pretty often the program logic requires the use of `if` or `if-else` statements, which are contained one inside another. They are called **nested** `if` or `if-else` statements. As implied by the title **"nested"**, these are `if` or `if-else` statements that are placed inside other `if` or `else` statements.
 
@@ -28,5 +28,8 @@ Nesting of **more than three conditional statements** inside each other is not c
 
 Let's take a few examples in order to gain experience about how to use **nested `if-else` conditions** in practice:
 
-* [Example: Personal Titles](example-personal-titles.md)
-* [Example: Small Shop](example-small-shop.md)
+* [Example: Personal Titles](/Content/Chapter-4-1-complex-conditions/nested-conditions/example-personal-titles.md)
+* [Example: Small Shop](/Content/Chapter-4-1-complex-conditions/nested-conditions/example-small-shop.md)
+
+
+

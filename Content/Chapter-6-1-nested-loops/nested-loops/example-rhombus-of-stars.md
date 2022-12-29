@@ -1,14 +1,14 @@
-# Problem: Rhombus of Stars
+# Problem: Rhombus Made of Stars
 
 Write a program that takes a positive integer **n** and prints **a rhombus made of stars** with size **n**.
 
-| Input | Output | Input | Output                                                              |
-| ----- | ------ | ----- | ------------------------------------------------------------------- |
-| 1     | `*`    | 2     | <p> <code>*</code> <br><code>* *</code><br> <code>*</code> <br></p> |
+|Input|Output|Input|Output|
+|---|---|---|---|
+|1|<code>\*</code>|2|<code>&nbsp;\*&nbsp;</code><br><code>\*&nbsp;\*</code><br><code>&nbsp;\*&nbsp;</code><br>|
 
-| Input | Output                                                                                                            | Input | Output                                                                                                                                                                      |
-| ----- | ----------------------------------------------------------------------------------------------------------------- | ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 3     | <p>  <code>*</code>  <br> <code>* *</code> <br><code>* * *</code><br> <code>* *</code> <br>  <code>*</code>  </p> | 4     | <p>   <code>*</code>   <br>  <code>* *</code>  <br> <code>* * *</code> <br><code>* * * *</code><br> <code>* * *</code> <br>  <code>* *</code>  <br>   <code>*</code>   </p> |
+|Input|Output|Input|Output|
+|---|---|---|---|
+|3|<code>&nbsp;&nbsp;\*&nbsp;&nbsp;</code><br><code>&nbsp;\*&nbsp;\*&nbsp;</code><br><code>\*&nbsp;\*&nbsp;\*</code><br><code>&nbsp;\*&nbsp;\*&nbsp;</code><br><code>&nbsp;&nbsp;\*&nbsp;&nbsp;</code>|4|<code>&nbsp;&nbsp;&nbsp;\*&nbsp;&nbsp;&nbsp;</code><br><code>&nbsp;&nbsp;\*&nbsp;\*&nbsp;&nbsp;</code><br><code>&nbsp;\*&nbsp;\*&nbsp;\*&nbsp;</code><br><code>\*&nbsp;\*&nbsp;\*&nbsp;\*</code><br><code>&nbsp;\*&nbsp;\*&nbsp;\*&nbsp;</code><br><code>&nbsp;&nbsp;\*&nbsp;\*&nbsp;&nbsp;</code><br><code>&nbsp;&nbsp;&nbsp;\*&nbsp;&nbsp;&nbsp;</code>|
 
 ## Video: Rhombus of Stars
 
@@ -24,7 +24,7 @@ To solve this problem, we need to mentally **divide** **the rhombus** into **two
 
 **The second** (lower) part will be printed **similarly**, which again we leave to the reader to do.
 
-![](../../../assets/chapter-6-images/06.Rhombus-of-stars-01.png)
+![](/assets/chapter-6-images/06.Rhombus-of-stars-01.png)
 
 ## Testing in the Judge System
 

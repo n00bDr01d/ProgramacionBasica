@@ -1,8 +1,8 @@
-# Study Software Engineering in SoftUni
+# Study Software Engineering at SoftUni
 
-The first option, which we recommend, is to enroll in a [**Software Developer program**](https://learn.softuni.org/catalog?utm\_source=C+sharp\&utm\_medium=text\&utm\_campaign=free+programming+books) to master programming on a professional level. The SoftUni curriculum is carefully developed by **Dr. Svetlin Nakov and his team**, in order to provide you consequently and with gradually increasing complexity all the skills that a software engineer must have, in order **to start a career as a software developer** in an IT company.
+The first option, which we recommend, is to enroll in a **[Software Developer program](https://learn.softuni.org/catalog?utm_source=C+sharp&utm_medium=text&utm_campaign=free+programming+books)** to master programming on a professional level. The SoftUni curriculum is carefully developed by **Dr. Svetlin Nakov and his team**, in order to provide you consequently and with gradually increasing complexity all the skills that a software engineer must have, in order **to start a career as a software developer** in an IT company.
 
-![](../../assets/chapter-0-images/SoftUni-Interactive-Classroom-Video.png)
+![](/assets/chapter-0-images/SoftUni-Interactive-Classroom-Video.png)
 
 ## Training Duration in SoftUni
 
@@ -12,9 +12,15 @@ The training in SoftUni has a duration of **1-2 years** (depending on the profes
 
 Keep in mind that **to become a programmer takes a lot of efforts**, writing tens of thousands of lines of code, and solving hundreds, even thousands of practical problems, and this takes years! If someone offers you "**an easier program**" and promises you to become a programmer and start working within 3-4 months, then either they are **lying** to you, or they will give you such a low level, that **companies won't even take you as a trainee**, even if you pay to the company that is wasting its time with you. There are exceptions, of course, for example if you are not starting from scratch, or if you have extremely well-developed engineering thinking, or if you apply for a very low position (for example technical support), but in general, **you cannot become a programmer if you haven't spent at least 1 year of intense learning and code writing**!
 
+<!-- ## The Entrance Exam in SoftUni
+
+In order **to enroll at SoftUni** you need to attend an **entrance exam** in "Programming Basics" on the material from this book. If you easily solve the problems in this book, then you are ready for the exam. Also, pay attention to the chapters on **preparation for the practical exam in programming**. They will give you a good idea of the level of difficulty of the exam and the types of tasks that you need to learn solving.
+
+If the tasks from the book and the preparation examples are hard for you, then you **need more preparation**. Enroll for the [free course in "Programming Basics"](https://softuni.org) or go through the book carefully one more time, without skipping solving **the problems in any of the studied topics**! You must learn how **to solve them with ease**, without helping yourselves with the guidelines and the sample solutions.-->
+
 ## The SoftUni Curriculum for Software Developers
 
-[**SoftUni’s self-paced programs**](https://learn.softuni.org/catalog?utm\_source=C+sharp\&utm\_medium=text\&utm\_campaign=free+programming+books) are designed as a sequence of modules giving you fundamental knowledge in software development and practical skills to prepare you to work as a programmer with the latest software technologies. The classes are divided into learning theory (30%) and doing exercises and projects (70%).
+**[SoftUni’s self-paced programs](https://learn.softuni.org/catalog?utm_source=C+sharp&utm_medium=text&utm_campaign=free+programming+books)** are designed as a sequence of modules giving you fundamental knowledge in software development and practical skills to prepare you to work as a programmer with the latest software technologies. The classes are divided into learning theory (30%) and doing exercises and projects (70%).
 
 ## How Many Hours per Day Does the Training Take?
 

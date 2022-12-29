@@ -26,31 +26,30 @@ Here are some examples of **composite numbers**:
 
 Positive integers, greater than 1, can be either **prime** or **composite** (product of primes). Numbers like **0** and **1** are not prime, but are also not composite.
 
-We can **check if an integer is prime** following the definition: check if **n > 1** and **n** is divisible by **2**, **3**, …, **n-1** without reminder.
+We can **check if an integer is prime** following the definition: check if **n > 1** and **n** is divisible by **2**, **3**,  …, **n-1** without reminder.
+   * If it is divisible by any of the numbers, it is **composite**.
+   * If it is not divisible by any of the numbers, then it is **prime**.
 
-* If it is divisible by any of the numbers, it is **composite**.
-* If it is not divisible by any of the numbers, then it is **prime**.
-
-| ![](../../../../assets/alert-icon.png) | We can optimize the algorithm instead of checking it to **`n-1`**, to check divisors to **`√n`**. Think what the reason for that is! |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
+<td>We can optimize the algorithm instead of checking it to <code><strong>n-1</strong></code>, to check divisors to <code><strong>√n</strong></code>. Think what the reason for that is!</td>
+</tr></table>
 
 ## Prime Checking Algorithm
 
 The most popular **algorithm** to check if a number **n** is prime is by checking if **n** is divisible by the numbers between 2 and √n.
 
 The **steps** of the "prime checking algorithm" are given below in bigger detail:
-
-* We create the variable **`n`** to which we assign an integer taken from the console input.
-* We create an **`isPrime`** bool variable with an initial value **`true`**. We assume that a number is prime until proven otherwise.
-* We create a **`for`** loop in which we set an initial value 2 for the loop variable, for condition **the current value `<= √n`**. The loop step is 1.
-* In **the body of the loop**, we check if **`n`**, divided by **the current value**, has a remainder. If there is **no reminder** from the division, then we change **`isPrime`** to **`false`** and we exit the loop through the **`break`** operator.
-* Depending on the value of **`isPrime`**, we print whether the number is prime (**`true`**) or composite (**`false`**).
+   * We create the variable **`n`** to which we assign an integer taken from the console input.
+   * We create an **`isPrime`** bool variable with an initial value **`true`**. We assume that a number is prime until proven otherwise.
+   * We create a **`for`** loop in which we set an initial value 2 for the loop variable, for condition **the current value `<= √n`**. The loop step is 1.
+   * In **the body of the loop**, we check if **`n`**, divided by **the current value**, has a remainder. If there is **no reminder** from the division, then we change **`isPrime`** to **`false`** and we exit the loop through the **`break`** operator.
+   * Depending on the value of **`isPrime`**, we print whether the number is prime (**`true`**) or composite (**`false`**).
 
 ## Implementation of the Prime Checking Algorithm
 
 Here is a **sample implementation** of the prime checking algorithm, described above:
 
-![](../../../../assets/chapter-7-images/10.Check-if-prime-01.png)
+![](/assets/chapter-7-images/10.Check-if-prime-01.png)
 
 What remains is to add a **condition that checks if the input number is greater than 1**, because by definition numbers such as 0, 1, -1 and -2 are not prime.
 

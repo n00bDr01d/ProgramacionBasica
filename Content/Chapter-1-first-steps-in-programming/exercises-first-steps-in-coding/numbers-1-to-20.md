@@ -1,4 +1,4 @@
-# Problem: Numbers from 1 to 20
+# Problema: Números del 1 al 20
 
 Escriba un programa de consola de C# que **imprima los números del 1 al 20** en líneas separadas de la consola.
 
@@ -22,3 +22,5 @@ Ahora **iniciamos el programa y comprobamos** si el resultado es el que se supon
 …
 20
 ```
+
+Ahora piensa si podemos escribir el programa **de una manera más inteligente**, para que no repitamos el mismo comando 20 veces. Busque información en Internet sobre "[**for loop C#**](https://www.google.com/search?q=for+loop+C%23\&oq=for+loop+C%23)".

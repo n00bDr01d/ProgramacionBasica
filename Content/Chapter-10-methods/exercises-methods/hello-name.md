@@ -1,12 +1,12 @@
 # Problem: "Hello, Name!"
 
-Write a method which takes a name as a parameter and prints on the console "_Hello, {name}!_".
+Write a method which takes a name as a parameter and prints on the console "*Hello, \{name\}!*".
 
 ## Sample Input and Output
 
-| Input | Output        |
-| ----- | ------------- |
-| Peter | Hello, Peter! |
+| Input | Output |
+| --- | --- |
+|Peter|Hello, Peter!|
 
 ## Hints and Guidelines
 

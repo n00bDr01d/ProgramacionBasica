@@ -1,8 +1,8 @@
-# Problem: \* Draw a Spiral Triangle with the Turtle
+# Problem: \* Draw a Spiral Triangles with the Turtle
 
-Add a \[**Triangle**] button that draws three triangles with 22 beams each, as on the figure below:
+Add a \[**Triangle**\] button that draws three triangles with 22 beams each, as on the figure below:
 
-![](../../../assets/chapter-5-images/13.Turtle-graphics-17.png)
+![](/assets/chapter-5-images/13.Turtle-graphics-17.png)
 
 **Hints:**
 

@@ -1,12 +1,12 @@
-# Problem: Min Method
+# Problem: Min Method (Return the Smaller Number)
 
 Create a method **`GetMin(int a, int b)`**, which returns the smaller of two numbers. Write a program, which takes as input three numbers and prints the smallest of them. Use the method **`GetMin(…)`**, which you have already created.
 
 ## Sample Input and Output
 
-| Input              | Output | Input                       | Output |
-| ------------------ | ------ | --------------------------- | ------ |
-| <p>1<br>2<br>3</p> | 1      | <p>-100<br>-101<br>-102</p> | -102   |
+| Input | Output | Input | Output |
+| --- | --- | --- | --- |
+|1<br>2<br>3|1|-100<br>-101<br>-102|-102|
 
 ## Hints and Guidelines
 

@@ -1,4 +1,4 @@
-# 4.2. More Complex Conditions – Exam Problems
+# Chapter 4.2. More Complex Conditions – Exam Problems
 
 The previous chapter introduced you to **nested conditions** in C#. Via nested conditions, the program logic in a particular application can be represented using **`if` conditional statements** that are nested one into another. We also explained the **`switch-case`** conditional statement that allows selecting from a list of options.
 
@@ -20,8 +20,9 @@ if (condition1)
 }
 ```
 
-| ![](../../assets/alert-icon.png) | Remember that it is not a good practice to write deeply nested conditional statements (with more than three levels of nesting). Avoid nesting of more than three conditional statements inside one another. This complicates the code and makes its reading and understanding difficult. |
-| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
+<td>Remember that it is <b>not a good practice</b> to write <b>deeply nested conditional statements</b> (with more than three levels of nesting). Avoid nesting of more than three conditional statements inside one another. This complicates the code and makes its reading and understanding difficult.</td>
+</tr></table>
 
 ### Switch-Case Conditions
 
@@ -47,9 +48,8 @@ The structure consists of a `selector` (an expression that calculates a particul
 ## Exam Problems
 
 Now, after we refreshed our knowledge on how to **use and nest conditional statements** in order to implement more complex conditions and program logic, let's solve some **exam problems**:
-
-* [Problem: On Time for the Exam](exam-problems/on-time-for-the-exam/on-time-for-the-exam.md)
-* [Problem: Trip](exam-problems/trip/trip.md)
-* [Problem: Operations with Numbers](exam-problems/operations/operations.md)
-* [Problem: Game Tickets](exam-problems/match-tickets/match-tickets.md)
-* [Problem: Hotel Room](exam-problems/hotel-room/hotel-room.md)
+ * [Problem: On Time for the Exam](/Content/Chapter-4-2-complex-conditions-exam-problems/exam-problems/on-time-for-the-exam/on-time-for-the-exam.md)
+ * [Problem: Trip](/Content/Chapter-4-2-complex-conditions-exam-problems/exam-problems/trip/trip.md)
+ * [Problem: Operations with Numbers](/Content/Chapter-4-2-complex-conditions-exam-problems/exam-problems/operations/operations.md)
+ * [Problem: Game Tickets](/Content/Chapter-4-2-complex-conditions-exam-problems/exam-problems/match-tickets/match-tickets.md)
+ * [Problem: Hotel Room](/Content/Chapter-4-2-complex-conditions-exam-problems/exam-problems/hotel-room/hotel-room.md)
